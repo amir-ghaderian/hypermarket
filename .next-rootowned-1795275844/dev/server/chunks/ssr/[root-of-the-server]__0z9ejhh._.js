@@ -1,0 +1,3309 @@
+module.exports = [
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/node:fs [external] (node:fs, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("node:fs", () => require("node:fs"));
+
+module.exports = mod;
+}),
+"[externals]/node:os [external] (node:os, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("node:os", () => require("node:os"));
+
+module.exports = mod;
+}),
+"[externals]/node:path [external] (node:path, cjs)", ((__turbopack_context__, module, exports) => {
+
+var mod = __turbopack_context__.x("node:path", () => require("node:path"));
+
+module.exports = mod;
+}),
+"[project]/app/favicon.ico (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/favicon.2vob68tjqpejf.ico" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+"[project]/app/favicon.ico.mjs { IMAGE => \"[project]/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/app/favicon.ico (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 256,
+    height: 256
+};
+}),
+"[project]/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Home,
+    "dynamic",
+    ()=>dynamic
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/layout/Header.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$home$2f$Hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/home/Hero.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$ProductCatalog$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/products/ProductCatalog.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$DealTimeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/products/DealTimeline.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$catalog$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/catalog.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+const dynamic = "force-dynamic";
+async function Home() {
+    const products = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$catalog$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getStoreProducts"])();
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        dir: "rtl",
+        className: "min-h-screen bg-gray-50 text-gray-900",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$home$2f$Hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$DealTimeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                products: products
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 25,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                id: "products",
+                className: "mx-auto max-w-7xl px-5 py-16 sm:px-6 md:py-20",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mb-12 text-right",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-sm font-bold text-gray-400",
+                                children: "محصولات فروشگاه"
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 33,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "mt-2 text-3xl font-black tracking-tight sm:text-4xl",
+                                children: "محصولات ما"
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-3 max-w-2xl text-sm leading-7 text-gray-500 sm:text-base",
+                                children: "محصولات مورد نیاز روزمره را در دسته‌بندی‌های مختلف مشاهده و انتخاب کنید. برای مشاهده جزئیات، روی هر محصول کلیک کنید."
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 41,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$ProductCatalog$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        products: products
+                    }, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 28,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                id: "about",
+                className: "border-y border-gray-200 bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mx-auto max-w-7xl px-5 py-16 sm:px-6 md:py-20",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid gap-10 md:grid-cols-2 md:items-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-right",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-sm font-bold text-gray-400",
+                                        children: "درباره ما"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 59,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "mt-3 text-3xl font-black sm:text-4xl",
+                                        children: [
+                                            "انتخاب مطمئن،",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 65,
+                                                columnNumber: 17
+                                            }, this),
+                                            "خرید آسان"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 58,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-right text-sm leading-8 text-gray-500 sm:text-base",
+                                children: "ما تلاش می‌کنیم مجموعه‌ای از محصولات پرمصرف و مورد نیاز فروشگاه‌ها و خانواده‌ها را در یک مجموعه منظم در اختیار شما قرار دهیم؛ با تمرکز بر کیفیت، تنوع و تأمین مطمئن."
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 70,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 57,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 56,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 52,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                id: "contact",
+                className: "bg-gray-950",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mx-auto max-w-7xl px-5 py-16 sm:px-6 md:py-20",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col gap-8 text-right md:flex-row md:items-center md:justify-between",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-sm font-medium text-gray-500",
+                                        children: "ارتباط با ما"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 87,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "mt-3 text-3xl font-black text-white sm:text-4xl",
+                                        children: [
+                                            "برای همکاری",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/app/page.tsx",
+                                                lineNumber: 93,
+                                                columnNumber: 17
+                                            }, this),
+                                            "با ما در تماس باشید"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.tsx",
+                                        lineNumber: 91,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "tel:+980****0000",
+                                className: "inline-flex w-fit rounded-2xl bg-white px-7 py-4 text-sm font-black text-gray-950 transition hover:bg-gray-200",
+                                children: "تماس با ما"
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.tsx",
+                                lineNumber: 98,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 85,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 84,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 80,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+                className: "bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-center text-sm text-gray-400 sm:flex-row sm:items-center sm:justify-between sm:text-right",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: [
+                                "© ",
+                                new Date().getFullYear(),
+                                " هایپرمارکت — تمامی حقوق محفوظ است."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 111,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: "خرید آسان، انتخاب مطمئن"
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 115,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 110,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 109,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/page.tsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", (function(__turbopack_context__){
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/page.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/components/home/Hero.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Hero
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function Hero() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative overflow-hidden bg-[#f3f8f1]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute -left-32 -top-32 h-80 w-80 rounded-full bg-emerald-200/30 blur-3xl"
+            }, void 0, false, {
+                fileName: "[project]/components/home/Hero.tsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute -bottom-40 right-0 h-96 w-96 rounded-full bg-lime-200/30 blur-3xl"
+            }, void 0, false, {
+                fileName: "[project]/components/home/Hero.tsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative mx-auto max-w-7xl px-5 py-16 sm:px-6 md:py-24",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid items-center gap-12 md:grid-cols-2",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-right",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-xs font-bold text-emerald-800 shadow-sm",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "h-2 w-2 rounded-full bg-emerald-500"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 18,
+                                            columnNumber: 15
+                                        }, this),
+                                        "محصولات مصرفی و روزمره"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-4xl font-black leading-[1.35] tracking-tight text-emerald-950 sm:text-5xl md:text-6xl",
+                                    children: [
+                                        "همه چیز برای",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 24,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-emerald-600",
+                                            children: "خریدی بهتر"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 25,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 22,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "mt-6 max-w-xl text-sm leading-8 text-gray-600 sm:text-base",
+                                    children: "مجموعه‌ای از محصولات شوینده، نوشیدنی، بهداشتی و خوراکی، با انتخابی ساده و دسترسی سریع به محصولات مورد نیاز شما."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 30,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-8 flex flex-wrap justify-end gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "#products",
+                                            className: "rounded-xl bg-emerald-700 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-700/15 transition hover:-translate-y-0.5 hover:bg-emerald-800",
+                                            children: "مشاهده محصولات"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 38,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "#contact",
+                                            className: "rounded-xl border border-emerald-200 bg-white px-6 py-3 text-sm font-bold text-emerald-800 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-300 hover:bg-emerald-50",
+                                            children: "ارتباط با ما"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 45,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-10 flex flex-wrap justify-end gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "rounded-2xl border border-emerald-100 bg-white/80 px-4 py-3 text-right shadow-sm",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-lg",
+                                                    children: "✓"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 58,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-1 text-xs font-bold text-gray-700",
+                                                    children: "انتخاب متنوع"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 59,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "rounded-2xl border border-emerald-100 bg-white/80 px-4 py-3 text-right shadow-sm",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-lg",
+                                                    children: "✓"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 65,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-1 text-xs font-bold text-gray-700",
+                                                    children: "محصولات کاربردی"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 66,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 64,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "rounded-2xl border border-emerald-100 bg-white/80 px-4 py-3 text-right shadow-sm",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-lg",
+                                                    children: "✓"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 72,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-1 text-xs font-bold text-gray-700",
+                                                    children: "تأمین مطمئن"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 73,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/home/Hero.tsx",
+                                    lineNumber: 55,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/home/Hero.tsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative hidden md:block",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative mx-auto aspect-square max-w-[450px]",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-6 rounded-[3rem] bg-emerald-700 shadow-2xl shadow-emerald-900/15"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/home/Hero.tsx",
+                                        lineNumber: 87,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-10 flex items-center justify-center rounded-[2.5rem] bg-[#fffdf8]",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-center",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "text-[115px] leading-none",
+                                                    children: "🛒"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 93,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-5 text-sm font-black text-emerald-950",
+                                                    children: "خرید آسان، انتخاب مطمئن"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 97,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-2 text-xs text-gray-400",
+                                                    children: "محصولات روزمره در یک مجموعه"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/home/Hero.tsx",
+                                                    lineNumber: 101,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/home/Hero.tsx",
+                                            lineNumber: 91,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/home/Hero.tsx",
+                                        lineNumber: 89,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute -right-2 top-16 rounded-2xl border border-emerald-100 bg-white px-5 py-4 shadow-xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-[11px] font-medium text-gray-400",
+                                                children: "دسته‌بندی محبوب"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/home/Hero.tsx",
+                                                lineNumber: 110,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-1 flex items-center gap-2 text-sm font-black text-emerald-900",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: "🧴"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/home/Hero.tsx",
+                                                        lineNumber: 115,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    "شوینده"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/home/Hero.tsx",
+                                                lineNumber: 114,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/home/Hero.tsx",
+                                        lineNumber: 109,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute -bottom-2 left-2 rounded-2xl border border-emerald-100 bg-white px-5 py-4 shadow-xl",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-[11px] font-medium text-gray-400",
+                                                children: "محصولات روزمره"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/home/Hero.tsx",
+                                                lineNumber: 122,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mt-1 flex items-center gap-2 text-sm font-black text-emerald-900",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: "🥤"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/home/Hero.tsx",
+                                                        lineNumber: 127,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    "نوشیدنی"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/home/Hero.tsx",
+                                                lineNumber: 126,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/home/Hero.tsx",
+                                        lineNumber: 121,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/home/Hero.tsx",
+                                lineNumber: 84,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/components/home/Hero.tsx",
+                            lineNumber: 82,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/home/Hero.tsx",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/home/Hero.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/home/Hero.tsx",
+        lineNumber: 4,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/components/layout/Header.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/layout/Header.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/layout/Header.tsx", "default");
+}),
+"[project]/components/layout/Header.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/layout/Header.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/layout/Header.tsx <module evaluation>", "default");
+}),
+"[project]/components/layout/Header.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/layout/Header.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/layout/Header.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/components/products/DealTimeline.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/products/DealTimeline.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/products/DealTimeline.tsx", "default");
+}),
+"[project]/components/products/DealTimeline.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/products/DealTimeline.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/products/DealTimeline.tsx <module evaluation>", "default");
+}),
+"[project]/components/products/DealTimeline.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$DealTimeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/products/DealTimeline.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$DealTimeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/products/DealTimeline.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$DealTimeline$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/components/products/ProductCatalog.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/products/ProductCatalog.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/products/ProductCatalog.tsx", "default");
+}),
+"[project]/components/products/ProductCatalog.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/components/products/ProductCatalog.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/products/ProductCatalog.tsx <module evaluation>", "default");
+}),
+"[project]/components/products/ProductCatalog.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$ProductCatalog$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/products/ProductCatalog.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$ProductCatalog$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/products/ProductCatalog.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$products$2f$ProductCatalog$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/data/products.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "products",
+    ()=>products
+]);
+const products = [
+    {
+        id: 5,
+        name: "شامپو نارگیل انواع مو حاجی شاکر ۵۰۰ میل",
+        category: "بهداشتی",
+        description: "شامپو نارگیل حاجی شاکر مناسب انواع مو، با عصاره خالص نارگیل که به تغذیه و ترمیم مو، افزایش درخشندگی و حفظ رطوبت و نرمی مو کمک می‌کند. مناسب استفاده روزانه بانوان و آقایان.",
+        image: "/images/products/015.jpeg",
+        price: 550000
+    },
+    {
+        id: 6,
+        name: "اسپری خوشبو کننده محیط حیات آلفا ۳۵۰ میل",
+        category: "شوینده",
+        description: "اسپری خوشبو کننده محیط حیات آلفا با رایحه لوندر و حجم ۳۵۰ میلی‌لیتر، مناسب برای خانه و محل کار با رایحه‌ای دل‌انگیز و ماندگاری بالا.",
+        image: "/images/products/018.jpeg",
+        price: 750000
+    },
+    {
+        id: 7,
+        name: "اسپری خوشبو کننده هوا حیات Spring ۳۵۰ میل",
+        category: "شوینده",
+        description: "اسپری خوشبو کننده هوا حیات Spring با رایحه گل‌های بهاری، فضایی تازه، دلپذیر و آرامش‌بخش در خانه ایجاد می‌کند و با پخش یکنواخت، رایحه‌ای سبک و ماندگار به محیط می‌بخشد.",
+        image: "/images/products/016.jpeg",
+        price: 750000
+    },
+    {
+        id: 8,
+        name: "شامپو عصاره روغن بادام حاجی شاکر",
+        category: "بهداشتی",
+        description: "شامپو حاجی شاکر با عصاره روغن بادام، مناسب مراقبت از مو و کمک به تقویت و حفظ سلامت موها. فرمول حاوی روغن بادام به مراقبت از مو و کاهش ریزش ناشی از ضعف و آسیب مو کمک می‌کند.",
+        image: "/images/products/011.jpeg",
+        price: 550000
+    },
+    {
+        id: 9,
+        name: "قرص ماشین ظرفشویی پلاتینوم فیری 72عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی پلاتینوم فیری با قدرت پاک‌کنندگی بالا، مناسب شست‌وشوی ظروف و از بین بردن چربی و آلودگی‌ها. دارای جلادهنده بیشتر و قابلیت کمک به جرم‌گیری فیلتر ماشین ظرفشویی در هر بار شست‌وشو.",
+        image: "/images/products/013.jpeg",
+        price: 3100000
+    },
+    {
+        id: 10,
+        name: "قرص ماشین ظرفشویی فینیش پاوربال کوانتوم مکس 83عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی فینیش پاوربال کوانتوم مکس با قدرت شویندگی و چربی‌زدایی بالا، مناسب از بین بردن لکه‌ها و مواد غذایی خشک‌شده روی ظروف. دارای ترکیبات براق‌کننده و قدرت پاک‌کنندگی بالا برای شست‌وشوی مؤثر ظروف.",
+        image: "/images/products/012.jpeg",
+        price: 3100000
+    },
+    {
+        id: 11,
+        name: "مایع براق کننده ماشین ظرفشویی فینیش",
+        category: "شوینده",
+        description: "مایع براق‌کننده ماشین ظرفشویی فینیش برای درخشان‌تر شدن ظروف و جلوگیری از باقی ماندن لکه و آثار آب روی آن‌ها. مناسب استفاده مداوم در ماشین ظرفشویی و کمک به داشتن ظروفی تمیز و براق.",
+        image: "/images/products/014.jpeg"
+    },
+    {
+        id: 12,
+        name: "پاک کننده چربی و آلودگی آسپرکس Sarı Güç Ultra",
+        category: "شوینده",
+        description: "پاک‌کننده قدرتمند آسپرکس Sarı Güç Ultra برای از بین بردن چربی و آلودگی‌های سخت از سطوح مختلف مانند اجاق گاز، فر، هود، سینک، کاشی، سرامیک، استیل و سایر سطوح قابل شست‌وشو. دارای رایحه لیمویی و فاقد پارابن و سفیدکننده.",
+        image: "/images/products/001.jpeg",
+        price: 800000
+    },
+    {
+        id: 13,
+        name: "اسپری ضد تعریق مردانه رکسونا Transparent Ice Invisible",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه رکسونا مدل Transparent Ice Invisible با رایحه‌ای خنک و مناسب استفاده روزانه، برای کمک به کنترل تعریق و ایجاد حس تازگی و تمیزی در طول روز.",
+        image: "/images/products/031.jpeg",
+        price: 1100000
+    },
+    {
+        id: 14,
+        name: "اسپری ضد تعریق مردانه رکسونا Cobalt Protection ۲۰۰ میل",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه رکسونا Motionsense Cobalt Protection با حجم ۲۰۰ میلی‌لیتر، مناسب استفاده روزانه و کمک به کنترل تعریق و ایجاد حس تازگی و محافظت در طول روز.",
+        image: "/images/products/002.jpeg",
+        price: 1100000
+    },
+    {
+        id: 15,
+        name: "اسپری ضد تعریق مردانه رکسونا ۷۲ ساعته ۲۰۰ میل",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه رکسونا با محافظت ۷۲ ساعته و حجم ۲۰۰ میلی‌لیتر، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و محافظت طولانی‌مدت. این محصول در رایحه‌ها و تنوع‌های مختلف عرضه می‌شود.",
+        image: "/images/products/028.jpeg",
+        price: 1100000
+    },
+    {
+        id: 16,
+        name: "اسپری ضد تعریق زنانه رکسونا ۲۰۰ میل",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق زنانه رکسونا Freshness Душа با حجم ۲۰۰ میلی‌لیتر، ساخت روسیه و بدون الکل. دارای تکنولوژی MotionSense برای محافظت در برابر تعریق و حفظ خشکی زیر بغل هنگام فعالیت و ورزش، با حس طراوت و شادابی در تمام فصول سال.",
+        image: "/images/products/022.jpeg",
+        price: 1100000
+    },
+    {
+        id: 17,
+        name: "اسپری ضد تعریق زنانه رکسونا Invisible Pure",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق زنانه رکسونا Invisible Pure با فرمول بدون الکل، ضد لک و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای محافظت در برابر تعریق و کمک به حفظ حس تازگی و تمیزی.",
+        image: "/images/products/005.jpeg",
+        price: 1100000
+    },
+    {
+        id: 18,
+        name: "آب آشامیدنی زمزم ۱۵۰۰ میلی‌لیتر",
+        category: "نوشیدنی",
+        description: "آب آشامیدنی زمزم با حجم ۱۵۰۰ میلی‌لیتر، مناسب مصرف روزانه و همراه داشتن در منزل، محل کار، سفر و فعالیت‌های روزمره.",
+        image: "/images/products/010.jpeg",
+        price: 200000
+    },
+    {
+        id: 19,
+        name: "آب آشامیدنی گریسون1.5 لیتر",
+        category: "نوشیدنی",
+        description: "آب آشامیدنی گریسون با حجم ۱.۵ لیتر، مناسب مصرف روزانه در منزل، محل کار، سفر و فعالیت‌های روزمره.",
+        image: "/images/products/008.jpeg",
+        price: 200000
+    },
+    {
+        id: 20,
+        name: "نوشابه قوطی پرتقالی فانتا ۳۳۰ میلی‌لیتر",
+        category: "نوشیدنی",
+        description: "نوشابه پرتقالی فانتا در قوطی ۳۳۰ میلی‌لیتری، با طعم پرتقالی و گازدار، مناسب مصرف روزانه و پذیرایی.",
+        image: "/images/products/004.jpeg",
+        price: 60000,
+        oldPrice: 75000
+    },
+    {
+        id: 21,
+        name: "نوشابه کوکاکولا ۳۳۰ میلی‌لیتر قوطی",
+        category: "نوشیدنی",
+        description: "نوشابه کوکاکولا در قوطی ۳۳۰ میلی‌لیتری، با طعم کلاسیک و گازدار، مناسب مصرف روزانه و پذیرایی.",
+        image: "/images/products/003.jpeg",
+        price: 60000
+    },
+    {
+        id: 22,
+        name: "آب معدنی رادیکال ۱.۵ لیتری",
+        category: "نوشیدنی",
+        description: "آب معدنی رادیکال در دو حجم ۵۰۰ میلی‌لیتر و ۱.۵ لیتری، مناسب مصرف روزانه، همراه داشتن در سفر، محل کار و فعالیت‌های روزمره.",
+        image: "/images/products/040.jpeg",
+        price: 200000
+    },
+    {
+        id: 23,
+        name: "نوار بهداشتی تافته مدل پروانه ویژه شب ۷ عددی",
+        category: "بهداشتی",
+        description: "نوار بهداشتی بالدار تافته مدل پروانه ویژه شب، نازک و مناسب استفاده در دوران قاعدگی. دارای محافظت بسیار بالا در برابر نشتی، سطح نرم و سازگار با پوست و مناسب برای پوست‌های حساس.",
+        image: "/images/products/007.jpeg",
+        price: 140000
+    },
+    {
+        id: 24,
+        name: "نوار بهداشتی تافته مدل Yalda Night سایز خیلی بزرگ ۷ عددی",
+        category: "بهداشتی",
+        description: "نوار بهداشتی تافته مدل Yalda Night با سایز خیلی بزرگ و بسته ۷ عددی، مناسب پوست‌های حساس. دارای جذب بالا، لایه رویی لطیف به نرمی کتان، ضخامت کم و باله‌های تثبیت‌کننده برای راحتی و محافظت بیشتر در دوران قاعدگی.",
+        image: "/images/products/026.jpeg",
+        price: 134000
+    },
+    {
+        id: 25,
+        name: "نوار بهداشتی مای لیدی مدل Ultra به نرمی ابریشم سایز خیلی بزرگ ۷ عددی",
+        category: "بهداشتی",
+        description: "نوار بهداشتی مای لیدی مدل Ultra به نرمی ابریشم، سایز خیلی بزرگ و بسته ۷ عددی، با طراحی مناسب برای راحتی و محافظت بیشتر در دوران قاعدگی.",
+        image: "/images/products/bb756aff-4f1c-4342-b722-01d91cc3abf4.jpg",
+        price: 140000
+    },
+    {
+        id: 26,
+        name: "نوار بهداشتی پنبه‌ای مای لیدی سایز خیلی بزرگ",
+        category: "بهداشتی",
+        description: "نوار بهداشتی پنبه‌ای مای لیدی سایز خیلی بزرگ با طراحی ارگونومیک و ضخامت کم، مناسب استفاده در دوران قاعدگی. دارای طول ۳۲۰ میلی‌متر و طراحی لطیف برای ایجاد راحتی و آرامش بیشتر.",
+        image: "/images/products/024.jpeg",
+        price: 130000
+    },
+    {
+        id: 27,
+        name: "نوار بهداشتی مای لیدی مدل New Classic Semi Thick سایز بزرگ",
+        category: "بهداشتی",
+        description: "نوار بهداشتی مای لیدی مدل New Classic با ضخامت متوسط و سایز بزرگ، مناسب استفاده در دوران قاعدگی و طراحی‌شده برای ایجاد راحتی و محافظت مناسب.",
+        image: "/images/products/025.jpeg",
+        price: 148000
+    },
+    {
+        id: 29,
+        name: "نوار بهداشتی بالدار مای لیدی مدل Classic Pink سایز بزرگ ۱۰ عددی",
+        category: "بهداشتی",
+        description: "نوار بهداشتی بالدار مای لیدی مدل Classic Pink سایز بزرگ، با ضخامت بیشتر و مناسب استفاده در طول روز و شب. بسته ۱۰ عددی و طراحی‌شده برای راحتی و محافظت مناسب در دوران قاعدگی.",
+        image: "/images/products/017.jpeg",
+        price: 160000
+    },
+    {
+        id: 30,
+        name: "دستمال توالت پاپیا ۴ لایه ۲ عددی",
+        category: "بهداشتی",
+        description: "دستمال توالت پاپیا با ساختار ۴ لایه و بسته ۲ عددی، مناسب استفاده روزانه و طراحی‌شده برای جذب مناسب و ایجاد نرمی و راحتی بیشتر.",
+        image: "/images/products/019.jpeg"
+    },
+    {
+        id: 31,
+        name: "دستمال کاغذی پاپیا مدل اقتصادی ۲۵۰ برگ ۸ عددی",
+        category: "بهداشتی",
+        description: "دستمال کاغذی پاپیا مدل اقتصادی با ۲۵۰ برگ در هر بسته و بسته‌بندی ۸ عددی، مناسب استفاده روزمره در منزل، محل کار و پذیرایی.",
+        image: "/images/products/021.jpeg"
+    },
+    {
+        id: 32,
+        name: "دستمال توالت تنو مدل کلاسیک ۳ لایه ۲ رول",
+        category: "بهداشتی",
+        description: "دستمال توالت تنو مدل کلاسیک با ساختار ۳ لایه و بسته ۲ عددی، مناسب استفاده روزانه و طراحی‌شده برای نرمی، جذب مناسب و راحتی بیشتر.",
+        image: "/images/products/006.jpeg"
+    },
+    {
+        id: 33,
+        name: "شیشه پاک کن تاژ ۵۰۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "شیشه پاک‌کن تاژ با حجم ۵۰۰ میلی‌لیتر، مناسب پاک کردن شیشه، آینه و سطوح شیشه‌ای و کمک به از بین بردن لکه‌ها و آلودگی‌ها.",
+        image: "/images/products/027.jpeg",
+        price: 155000
+    },
+    {
+        id: 34,
+        name: "پاک کننده چند منظوره اکتیو",
+        category: "شوینده",
+        description: "پاک‌کننده آشپزخانه اکتیو با قدرت پاک‌کنندگی بالا، مناسب از بین بردن چربی‌ها، لکه‌ها و مواد غذایی سوخته. با استفاده آسان، ایجاد درخشندگی بالا و رایحه‌ای خوش، مناسب نظافت سطوح مختلف آشپزخانه.",
+        image: "/images/products/030.jpeg",
+        price: 220000
+    },
+    {
+        id: 35,
+        name: "پاک‌کننده چندمنظوره اکتیو",
+        category: "شوینده",
+        description: "پاک‌کننده چندمنظوره اکتیو با قدرت بالا برای پاک کردن چربی، لکه‌های عمیق و دوده از سطوح سخت پلاستیکی، سرامیکی، استیل، فلزی، چوبی و سنگی. مناسب برای تمیز کردن اجاق گاز، مایکروویو، یخچال، کابینت، سینک، هود و سایر سطوح قابل شست‌وشو. پس از استفاده، سطح را تمیز، درخشان و معطر می‌کند. از استفاده روی آینه، شیشه و مانیتور کامپیوتر خودداری شود.",
+        image: "/images/products/020.jpeg",
+        price: 230000
+    },
+    {
+        id: 36,
+        name: "مانتی یا پاستای ترکیه‌ای",
+        category: "مواد غذایی",
+        description: "مانتی یا پاستای ترکیه‌ای، خمیرهای کوچک پرشده با گوشت یا سویا که مانند پاستا در آب جوش پخته می‌شوند. این غذای محبوب ترکیه معمولاً همراه با ماست، سیر و فلفل سرو می‌شود.",
+        image: "/images/products/037.jpeg",
+        price: 550000
+    },
+    {
+        id: 37,
+        name: "بلغور دانه درشت",
+        category: "مواد غذایی",
+        description: "بلغور دانه درشت مناسب برای تهیه انواع غذاها از جمله پلوی بلغور، سوپ و آش.",
+        image: "/images/products/39.jpeg",
+        price: 490000
+    },
+    {
+        id: 38,
+        name: "بلغور دانه متوسط",
+        category: "مواد غذایی",
+        description: "بلغور دانه متوسط مناسب برای تهیه انواع سوپ، آش، حلیم و پلوی بلغور.",
+        image: "/images/products/038.jpeg",
+        price: 490000
+    },
+    {
+        id: 39,
+        name: "اسپری دئودورانت زنانه رکسونا Aloe Vera Scent",
+        category: "بهداشتی",
+        description: "اسپری دئودورانت زنانه رکسونا مدل Aloe Vera Scent با حجم ۲۰۰ میلی‌لیتر، ساخت ایتالیا و با عملکرد ۴۸ ساعته. دارای رایحه خنک و ملایم، مقاوم در برابر رطوبت و مناسب پوست‌های حساس. فاقد الکل و مواد حساسیت‌زا.",
+        image: "/images/products/032.jpeg",
+        price: 1100000
+    },
+    {
+        id: 40,
+        name: "پک مام قارچی و اسپری بدن داو اورجینال",
+        category: "بهداشتی",
+        description: "پک مام قارچی و اسپری بدن داو اورجینال با ماندگاری تا ۷۲ ساعت، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز.",
+        image: "/images/products/041.jpeg",
+        price: 1000000
+    },
+    {
+        id: 41,
+        name: "اسپری خوشبو کننده داو ۲۵۰ میل",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری تا ۷۲ ساعت، مناسب استفاده روزانه برای ایجاد حس تازگی، تمیزی و رایحه‌ای دلپذیر در طول روز.",
+        image: "/images/products/042.jpeg",
+        price: 1000000
+    },
+    {
+        id: 42,
+        name: "دستمال نظافت مخصوص تی فیری با رایحه لیمو",
+        category: "شوینده",
+        description: "دستمال نظافت مخصوص تی فیری با رایحه لیمو، بسته ۵۰ عددی، مناسب برای نظافت و تمیز کردن سطوح مختلف. دارای رایحه دلپذیر لیمو و مناسب استفاده روزمره در منزل.",
+        image: "/images/products/043.jpeg",
+        price: 1000000
+    },
+    {
+        id: 43,
+        name: "دستمال مرطوب پاک کننده سطوح فیری",
+        category: "شوینده",
+        description: "دستمال مرطوب پاک‌کننده سطوح فیری در بسته ۵۰ عددی، مناسب برای تمیز کردن سطوح مختلف، آشپزخانه، مبلمان و وسایل چوبی. با ماندگاری ۴۸ ساعته و مناسب استفاده روزمره برای پاکیزگی و تازگی بیشتر سطوح.",
+        image: "/images/products/044.jpeg",
+        price: 850000
+    },
+    {
+        id: 44,
+        name: "اسپری آسپروکس پاک کننده رسوب شیرآلات و سرامیک ۱۰۰۰ میل",
+        category: "شوینده",
+        description: "اسپری پاک‌کننده آسپروکس ASPEROX MAVI GUC با حجم ۱۰۰۰ میلی‌لیتر، مناسب برای از بین بردن رسوبات و لکه‌های ناشی از آب از روی شیرآلات، سرامیک و سطوح قابل شست‌وشو. مناسب استفاده برای نظافت روزمره و ایجاد سطحی تمیز و درخشان.",
+        image: "/images/products/045.jpeg",
+        price: 800000
+    },
+    {
+        id: 45,
+        name: "استیک ضد تعریق الد اسپایس Old Spice",
+        category: "بهداشتی",
+        description: "استیک ضد تعریق Old Spice با ماندگاری طولانی، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز. مناسب آقایان و قابل استفاده برای محافظت و طراوت بیشتر.",
+        image: "/images/products/046.jpeg"
+    },
+    {
+        id: 46,
+        name: "مام صابونی ضد تعریق رکسونا ۴۰ گرم",
+        category: "بهداشتی",
+        description: "مام صابونی ضد تعریق رکسونا با حجم ۴۰ گرم و ماندگاری تا ۴۸ ساعت، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و محافظت در طول روز.",
+        image: "/images/products/047.jpeg",
+        price: 1300000
+    },
+    {
+        id: 47,
+        name: "پک اسپری دئودورانت و مام رولی نیوا",
+        category: "بهداشتی",
+        description: "پک اسپری دئودورانت و مام رولی نیوا، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز. ترکیب اسپری دئودورانت و مام رولی، مناسب استفاده برای محافظت و طراوت بیشتر.",
+        image: "/images/products/048.jpeg"
+    },
+    {
+        id: 48,
+        name: "پک دئودورانت اسپری و مام رولی نیوا ضد لک",
+        category: "بهداشتی",
+        description: "پک دئودورانت نیوا شامل اسپری و مام رولی با فرمول ضد لک، مناسب استفاده روزانه و طراحی‌شده برای کمک به محافظت در برابر تعریق و ایجاد حس تازگی و خوشبویی. مناسب استفاده برای لباس‌های سفید و مشکی و کمک به جلوگیری از ایجاد لکه و آثار سفید روی لباس.",
+        image: "/images/products/049.jpeg",
+        price: 1480000
+    },
+    {
+        id: 49,
+        name: "شامپو الیدور ۴۰۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو الیدور با حجم ۴۰۰ میلی‌لیتر، حاوی مواد مغذی و مناسب انواع مو. این شامپو با کمک به تقویت ریشه و ساقه مو، برای مراقبت و حفظ سلامت و شادابی موها در استفاده روزانه مناسب است.",
+        image: "/images/products/050.jpeg",
+        price: 799000,
+        oldPrice: 990000
+    },
+    {
+        id: 50,
+        name: "شامپو ضد شوره کلییر سری قهرمانان مدل Deep Clean And Grease Control",
+        category: "بهداشتی",
+        description: "شامپو ضد شوره سر کلییر سری قهرمانان مدل Deep Clean And Grease Control با حجم ۴۰۰ میلی‌لیتر، مناسب موهای چرب. فرمول این شامپو برای پاکسازی عمیق مو و پوست سر و کمک به کنترل چربی و شوره طراحی شده و برای استفاده روزانه مناسب است.",
+        image: "/images/products/051.jpeg",
+        price: 890000,
+        oldPrice: 1050000
+    },
+    {
+        id: 51,
+        name: "شامپو ضد شوره کلییر با زغال تصفیه شده ۴۰۰ میل",
+        category: "بهداشتی",
+        description: "شامپو ضد شوره کلییر با زغال تصفیه شده و حجم ۴۰۰ میلی‌لیتر، مناسب برای پاکسازی مو و پوست سر و کمک به کنترل شوره. ترکیب حاوی زغال به پاکسازی و ایجاد حس تازگی و تمیزی بیشتر موها کمک می‌کند.",
+        image: "/images/products/052.jpeg",
+        price: 890000,
+        oldPrice: 1050000
+    },
+    {
+        id: 52,
+        name: "شامپو ضد شوره مردانه کلییر مدل Cool Sport Menthol ۳۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو ضد شوره مردانه کلییر مدل Cool Sport Menthol با حجم ۳۵۰ میلی‌لیتر، حاوی منتول با خاصیت خنک‌کنندگی و طراوت‌بخشی. مناسب برای پاکسازی مو و پوست سر و کمک به کنترل شوره، همراه با ایجاد حس خنکی و تازگی پس از شست‌وشو.",
+        image: "/images/products/053.jpeg",
+        price: 890000,
+        oldPrice: 1050000
+    },
+    {
+        id: 53,
+        name: "شامپو تقویت‌کننده و ضد ریزش مو لایتنس مدل Argan Oil ۹۰۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو تقویت‌کننده و ضد ریزش مو لایتنس مدل Argan Oil با حجم ۹۰۰ میلی‌لیتر، حاوی روغن آرگان و پروتئین و مناسب انواع مو. دارای خاصیت نرم‌کنندگی و حجم‌دهندگی و فاقد سولفات و پارابن، مناسب استفاده روزانه برای مراقبت و تقویت مو.",
+        image: "/images/products/054.jpeg",
+        price: 1700000
+    },
+    {
+        id: 54,
+        name: "شامپو لورآل",
+        category: "بهداشتی",
+        description: "شامپو لورآل با فرمول مغذی، به آبرسانی مو بدون ایجاد سنگینی کمک می‌کند. این شامپو دارای خواص ضد شوره بوده و برای کمک به پاکیزگی و حفظ سلامت پوست سر مناسب است.",
+        image: "/images/products/055.jpeg",
+        price: 880000,
+        oldPrice: 1000000
+    },
+    {
+        id: 55,
+        name: "شامپو سر حاجی شاکر ۵۰۰ میل",
+        category: "بهداشتی",
+        description: "شامپو سر حاجی شاکر در انواع مدل‌ها با حجم ۵۰۰ میلی‌لیتر، مناسب برای پاکسازی، تقویت و آبرسانی مو. هر مدل با توجه به عصاره انتخابی، برای نیازها و انواع مختلف مو طراحی شده و به مراقبت و حفظ سلامت موها کمک می‌کند.",
+        image: "/images/products/056.jpeg",
+        price: 550000
+    },
+    {
+        id: 56,
+        name: "کرم مرطوب کننده دالان حاوی روغن زیتون ۳۰۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "کرم مرطوب‌کننده دالان حاوی روغن زیتون با حجم ۳۰۰ میلی‌لیتر، مناسب انواع پوست و قابل استفاده برای صورت و بدن. مناسب برای کمک به حفظ رطوبت و نرمی پوست و استفاده روزانه.",
+        image: "/images/products/057.jpeg",
+        price: 600000
+    },
+    {
+        id: 57,
+        name: "اسپری خوشبو کننده بدن زنانه ایموشن ۱۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده بدن زنانه ایموشن با حجم ۱۵۰ میلی‌لیتر و ماندگاری تا ۴۸ ساعت، مناسب استفاده روزانه برای ایجاد حس تازگی و خوشبویی و کمک به حفظ رایحه‌ای دلپذیر در طول روز.",
+        image: "/images/products/058.jpeg",
+        price: 650000
+    },
+    {
+        id: 58,
+        name: "کرم مرطوب کننده آرکو کلاسیک کاسه‌ای ۲۵۰ میل",
+        category: "بهداشتی",
+        description: "کرم مرطوب‌کننده آرکو کلاسیک با حجم ۲۵۰ میلی‌لیتر و بسته‌بندی کاسه‌ای، مناسب انواع پوست. مناسب استفاده روزانه برای کمک به حفظ رطوبت، نرمی و لطافت پوست.",
+        image: "/images/products/059.jpeg",
+        price: 550000
+    },
+    {
+        id: 59,
+        name: "صابون دورو Duru رنگی و خوشبوکننده",
+        category: "بهداشتی",
+        description: "صابون‌های رنگی و خوشبوکننده برند دورو Duru، ساخت کشور ترکیه، با رایحه‌های متنوع مانند گل‌های بهاری، نسیم اقیانوس و عصاره‌های گیاهی. مناسب استفاده روزانه و برای ایجاد حس پاکیزگی و رایحه‌ای دلپذیر روی پوست.",
+        image: "/images/products/060.jpeg",
+        price: 750000
+    },
+    {
+        id: 60,
+        name: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond بسته ۶۰ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond در بسته ۶۰ عددی، مناسب شست‌وشوی ظروف و کمک به از بین بردن چربی، لکه و باقی‌مانده مواد غذایی. مناسب استفاده در ماشین‌های ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و درخشان.",
+        image: "/images/products/061.jpeg",
+        price: 2900000
+    },
+    {
+        id: 61,
+        name: "قرص ماشین ظرفشویی فیری مدل پلاتینیوم پلاس بسته ۵۰ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی فیری مدل پلاتینیوم پلاس در بسته ۵۰ عددی، مناسب شست‌وشوی ظروف و کمک به از بین بردن چربی، لکه و باقی‌مانده مواد غذایی. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و براق.",
+        image: "/images/products/062.jpeg",
+        price: 3200000
+    },
+    {
+        id: 62,
+        name: "قرص ماشین ظرفشویی فیری مدل پلاتینیوم بسته ۷۲ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی فیری مدل پلاتینیوم در بسته ۷۲ عددی، مناسب شست‌وشوی ظروف و کمک به از بین بردن چربی، لکه و باقی‌مانده مواد غذایی. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و کمک به درخشندگی ظروف.",
+        image: "/images/products/063.jpeg",
+        price: 3100000
+    },
+    {
+        id: 63,
+        name: "قرص ماشین ظرفشویی فینیش مدل کوانتوم INFINITY SHINE بسته ۸۳ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی فینیش مدل کوانتوم INFINITY SHINE در بسته ۸۳ عددی، مناسب شست‌وشوی ظروف و کمک به از بین بردن چربی، لکه و باقی‌مانده مواد غذایی. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و درخشان.",
+        image: "/images/products/064.jpeg",
+        price: 3100000
+    },
+    {
+        id: 64,
+        name: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond بسته ۶۰ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond در بسته ۶۰ عددی، با رایحه سیب و برگاموت (بالنگ) و قدرت چربی‌زدایی بالا. حاوی سرکه برای درخشندگی بیشتر ظروف و کمک به محافظت از ظروف شیشه‌ای. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و براق.",
+        image: "/images/products/065.jpeg",
+        price: 2900000
+    },
+    {
+        id: 65,
+        name: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond بسته ۶۰ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond در بسته ۶۰ عددی، با رایحه هُندوانه و لیمو لایم و قدرت چربی‌زدایی بالا. حاوی سرکه برای درخشندگی بیشتر ظروف و کمک به محافظت از ظروف شیشه‌ای. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و براق.",
+        image: "/images/products/066.jpeg",
+        price: 2900000
+    },
+    {
+        id: 66,
+        name: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond بسته ۶۰ عددی",
+        category: "شوینده",
+        description: "قرص ماشین ظرفشویی اسپروکس مدل Sparx Diamond در بسته ۶۰ عددی، با رایحه پرتقال و لیمو و قدرت چربی‌زدایی بالا. حاوی سرکه برای درخشندگی بیشتر ظروف و کمک به محافظت از ظروف شیشه‌ای. مناسب استفاده در ماشین ظرفشویی برای شست‌وشوی مؤثر و ایجاد ظروف تمیز و براق.",
+        image: "/images/products/067.jpeg",
+        price: 2900000
+    },
+    {
+        id: 67,
+        name: "شامپو ضد شوره مردانه کلییر مدل Maksimum Ferahlık حجم ۳۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو ضد شوره مردانه کلییر مدل Maksimum Ferahlık با حجم ۳۵۰ میلی‌لیتر و رایحه لیمو، مناسب برای پاکسازی مو و پوست سر و کمک به کنترل شوره. با ایجاد حس تازگی و طراوت، مناسب استفاده روزانه آقایان.",
+        image: "/images/products/068.jpeg",
+        price: 890000,
+        oldPrice: 1050000
+    },
+    {
+        id: 68,
+        name: "کرم مرطوب کننده آرکو حاوی روغن آووکادو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "کرم مرطوب‌کننده آرکو حاوی روغن آووکادو با حجم ۲۵۰ میلی‌لیتر، مناسب استفاده برای دست، صورت و بدن. مناسب استفاده روزانه برای کمک به حفظ رطوبت، نرمی و لطافت پوست.",
+        image: "/images/products/069.jpeg",
+        price: 550000
+    },
+    {
+        id: 69,
+        name: "کرم مرطوب کننده آرکو نم حاوی روغن نارگیل ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "کرم مرطوب‌کننده آرکو نم حاوی روغن نارگیل با حجم ۲۵۰ میلی‌لیتر، مناسب استفاده برای دست، صورت و بدن. مناسب استفاده روزانه برای کمک به حفظ رطوبت، نرم�� و لطافت پوست.",
+        image: "/images/products/070.jpeg",
+        price: 550000
+    },
+    {
+        id: 70,
+        name: "اسپری بدن مردانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری بدن مردانه داو با حجم ۲۵۰ میلی‌لیتر، مناسب استفاده روزانه برای ایجاد حس تازگی و خوشبویی و کمک به حفظ رایحه‌ای دلپذیر در طول روز.",
+        image: "/images/products/071.jpeg",
+        price: 1100000
+    },
+    {
+        id: 71,
+        name: "اسپری ضد تعریق مردانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز.",
+        image: "/images/products/072.jpeg",
+        price: 1100000
+    },
+    {
+        id: 72,
+        name: "اسپری ضد تعریق مردانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز.",
+        image: "/images/products/073.jpeg",
+        price: 1100000
+    },
+    {
+        id: 73,
+        name: "اسپری ضد تعریق مردانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز.",
+        image: "/images/products/074.jpeg",
+        price: 1100000
+    },
+    {
+        id: 74,
+        name: "اسپری ضد تعریق مردانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق مردانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی و خوشبویی در طول روز.",
+        image: "/images/products/075.jpeg",
+        price: 1100000
+    },
+    {
+        id: 75,
+        name: "اسپری ضد تعریق بدن زنانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق بدن زنانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی، تمیزی و خوشبویی در طول روز.",
+        image: "/images/products/076.jpeg",
+        price: 1000000
+    },
+    {
+        id: 76,
+        name: "اسپری ضد تعریق بدن زنانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق بدن زنانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی، تمیزی و خوشبویی در طول روز.",
+        image: "/images/products/077.jpeg",
+        price: 1000000
+    },
+    {
+        id: 77,
+        name: "اسپری ضد تعریق بدن زنانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق بدن زنانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی، تمیزی و خوشبویی در طول روز.",
+        image: "/images/products/078.jpeg",
+        price: 1000000
+    },
+    {
+        id: 78,
+        name: "اسپری ضد تعریق بدن زنانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق بدن زنانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی، تمیزی و خوشبویی در طول روز.",
+        image: "/images/products/079.jpeg",
+        price: 1000000
+    },
+    {
+        id: 79,
+        name: "اسپری ضد تعریق بدن زنانه داو ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق بدن زنانه داو با حجم ۲۵۰ میلی‌لیتر و ماندگاری ۴۸ ساعته، مناسب استفاده روزانه برای کمک به کنترل تعریق و ایجاد حس تازگی، تمیزی و خوشبویی در طول روز.",
+        image: "/images/products/080.jpeg",
+        price: 1000000
+    },
+    {
+        id: 80,
+        name: "شکلات صبحانه فندقی فابیلم Fabilem ترکیه ۹۰۰ گرم",
+        category: "مواد غذایی",
+        description: "شکلات صبحانه فندقی فابیلم Fabilem ساخت ترکیه با وزن ۹۰۰ گرم، با طعم فندقی خوشمزه و مناسب برای مصرف در وعده صبحانه و میان‌وعده. محصولی خوش‌طعم و مقوی برای استفاده روزانه.",
+        image: "/images/products/081.jpeg",
+        price: 1100000
+    },
+    {
+        id: 81,
+        name: "سس کچاپ بورجو Burcu ترکیه حدود ۶۵۰ گرم",
+        category: "مواد غذایی",
+        description: "سس کچاپ بورجو Burcu، محصولی باکیفیت و مناسب استفاده در انواع غذاها، ساندویچ و فست‌فود. این محصول در وزن حدود ۶۵۰ گرم و در دو طعم ساده و تند عرضه می‌شود.",
+        image: "/images/products/082.jpeg",
+        price: 450000
+    },
+    {
+        id: 82,
+        name: "نوشابه لیموناد گازدار زمزم ۱ لیتر بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "نوشابه لیموناد گازدار زمزم با حجم ۱ لیتر، در بسته ۶ عددی، با طعم لیموناد و مناسب مصرف روزانه و پذیرایی.",
+        image: "/images/products/083.jpeg",
+        price: 850000
+    },
+    {
+        id: 85,
+        name: "نوشابه پرتقالی گازدار زمزم ۲۵۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "نوشابه پرتقالی گازدار زمزم با حجم ۲۵۰ میلی‌لیتر، در بسته ۱۲ عددی، با طعم پرتقالی و گازدار. مناسب مصرف روزانه، پذیرایی و همراهی با انواع غذاها.",
+        image: "/images/products/086.jpeg"
+    },
+    {
+        id: 86,
+        name: "نوشابه مشکی کولا نوستالژی زمزم ۲۵۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "نوشابه مشکی کولا نوستالژی زمزم با حجم ۲۵۰ میلی‌لیتر، در بسته ۱۲ عددی، با طعم کلاسیک کولا و گازدار. مناسب مصرف روزانه، پذیرایی و همراهی با انواع غذاها.",
+        image: "/images/products/087.jpeg",
+        price: 730000
+    },
+    {
+        id: 87,
+        name: "لیموناد گازدار زمزم ۲۸۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "لیموناد گازدار زمزم با حجم ۲۸۰ میلی‌لیتر، در بسته ۱۲ عددی، با طعم لیموناد و گازدار. مناسب مصرف روزانه، پذیرایی و همراهی با انواع غذاها.",
+        image: "/images/products/089.jpeg",
+        price: 720000
+    },
+    {
+        id: 89,
+        name: "آب معدنی زمزم ۵۰۰ میلی‌لیتر",
+        category: "نوشیدنی",
+        description: "آب معدنی زمزم با حجم ۵۰۰ میلی‌لیتر، مناسب مصرف روزانه و همراه داشتن در محل کار، سفر، ورزش و فعالیت‌های روزمره.",
+        image: "/images/products/090.jpeg",
+        price: 220000
+    },
+    {
+        id: 90,
+        name: "کافی میکس کلاسنو کاراملی ۳ در ۱",
+        category: "نوشیدنی",
+        description: "کافی میکس کلاسنو کاراملی ۳ در ۱ با طعم دلپذیر کارامل، مناسب برای تهیه سریع و آسان یک نوشیدنی گرم و خوش‌طعم در هر زمان از روز.",
+        image: "/images/products/091.jpeg",
+        price: 780000
+    },
+    {
+        id: 91,
+        name: "کافی میکس کلاسنو مدل Traditional بسته ۲۰ عددی",
+        category: "نوشیدنی",
+        description: "کافی میکس کلاسنو مدل Traditional در بسته ۲۰ عددی، مناسب تهیه سریع و آسان یک نوشیدنی گرم و خوش‌طعم. گزینه‌ای مناسب برای مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/092.jpeg",
+        price: 900000
+    },
+    {
+        id: 92,
+        name: "کافی میکس فندقی کلاسنو بسته ۲۰ عددی",
+        category: "نوشیدنی",
+        description: "کافی میکس فندقی کلاسنو در بسته ۲۰ عددی، با طعم دلپذیر فندق و مناسب تهیه سریع و آسان یک نوشیدنی گرم و خوش‌طعم. مناسب مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/093.jpeg",
+        price: 800000
+    },
+    {
+        id: 93,
+        name: "کافی میکس خامه‌ای ۳ در ۱ کلاسنو بسته ۲۰ عددی",
+        category: "نوشیدنی",
+        description: "کافی میکس خامه‌ای ۳ در ۱ کلاسنو در بسته ۲۰ عددی، با طعمی ملایم و خامه‌ای، مناسب تهیه سریع و آسان یک نوشیدنی گرم و خوش‌طعم. مناسب مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/094.jpeg",
+        price: 820000
+    },
+    {
+        id: 94,
+        name: "هات چاکلت کلاسنو ۳ در ۱ بسته ۲۰ عددی",
+        category: "نوشیدنی",
+        description: "هات چاکلت کلاسنو ۳ در ۱ در بسته ۲۰ عددی، با طعم شکلاتی و مناسب تهیه سریع و آسان یک نوشیدنی گرم و خوش‌طعم. مناسب مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/095.jpeg",
+        price: 990000
+    },
+    {
+        id: 95,
+        name: "نوشیدنی هلو رانی پالپ‌دار ۲۴۰ میلی‌لیتر",
+        category: "نوشیدنی",
+        description: "نوشیدنی هلو رانی پالپ‌دار با حجم ۲۴۰ میلی‌لیتر، در بسته ۲۴ عددی، با طعم دلپذیر هلو و پالپ میوه. مناسب مصرف روزانه، پذیرایی و میان‌وعده.",
+        image: "/images/products/096.jpeg",
+        price: 60000,
+        oldPrice: 80000
+    },
+    {
+        id: 97,
+        name: "نوشیدنی انرژی‌زا هایپ ۲۵۰ میلی‌لیتر",
+        category: "نوشیدنی",
+        description: "نوشیدنی انرژی‌زا هایپ با حجم ۲۵۰ میلی‌لیتر، مناسب مصرف در زمان فعالیت و برای افزایش انرژی و رفع خستگی روزمره.",
+        image: "/images/products/098.jpeg",
+        price: 60000,
+        oldPrice: 80000
+    },
+    {
+        id: 98,
+        name: "آدامس تریدنت پرتقال بسته ۱۲ عددی",
+        category: "مواد غذایی",
+        description: "آدامس تریدنت با طعم پرتقال، در بسته ۱۲ عددی، با طعمی میوه‌ای و دلپذیر. مناسب مصرف روزانه و تازه نگه داشتن دهان.",
+        image: "/images/products/099.jpeg",
+        price: 220000
+    },
+    {
+        id: 99,
+        name: "چای کیسه‌ای شهرزاد مدل رویال بسته ۲۵ عددی",
+        category: "نوشیدنی",
+        description: "چای کیسه‌ای شهرزاد مدل رویال در بسته ۲۵ عددی، مناسب تهیه سریع و آسان چای و استفاده روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/0100.jpeg",
+        price: 170000
+    },
+    {
+        id: 100,
+        name: "چای سیاه کیسه‌ای ممتاز هندوستان گلستان بسته ۲۵ عددی",
+        category: "نوشیدنی",
+        description: "چای سیاه کیسه‌ای ممتاز هندوستان گلستان در بسته ۲۵ عددی، تهیه‌شده از چای ممتاز هندوستان با عطر و طعمی دلپذیر. مناسب تهیه سریع و آسان چای و مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/0101.jpeg",
+        price: 140000
+    },
+    {
+        id: 101,
+        name: "روغن سرخ‌کردنی بهار ۱.۸ لیتر",
+        category: "مواد غذایی",
+        description: "روغن سرخ‌کردنی بهار با حجم ۱.۸ لیتر، مناسب برای سرخ کردن انواع مواد غذایی و تهیه غذاهای روزمره. مناسب استفاده در آشپزی و پخت‌وپز روزانه.",
+        image: "/images/products/0102.jpeg",
+        price: 810000
+    },
+    {
+        id: 102,
+        name: "روغن مخصوص سرخ‌کردنی بهار ۸۱۰ گرم",
+        category: "مواد غذایی",
+        description: "روغن مخصوص سرخ‌کردنی بهار با وزن ۸۱۰ گرم، مناسب سرخ کردن انواع مواد غذایی و تهیه غذاهای روزمره. گزینه‌ای مناسب برای استفاده در آشپزی و پخت‌وپز.",
+        image: "/images/products/0103.jpeg",
+        price: 328000
+    },
+    {
+        id: 103,
+        name: "روغن مایع آفتابگردان لادن حاوی ویتامین D و E ۱.۳۵ کیلوگرم",
+        category: "مواد غذایی",
+        description: "روغن مایع آفتابگردان لادن با وزن ۱.۳۵ کیلوگرم، حاوی ویتامین‌های D و E و مناسب استفاده در پخت‌وپز و تهیه انواع غذاها. مناسب مصرف روزانه در آشپزی.",
+        image: "/images/products/0104.jpeg",
+        price: 543000
+    },
+    {
+        id: 104,
+        name: "کاپوچینو با طعم دبی چاکلت جاکوبز ۱۹.۵ گرم بسته ۸ عددی",
+        category: "نوشیدنی",
+        description: "کاپوچینو جاکوبز با طعم دبی چاکلت، در بسته ۸ عددی با وزن ۱۹.۵ گرم برای هر ساشه. مناسب تهیه سریع و آسان یک نوشیدنی گرم با طعم شکلاتی و خامه‌ای، مناسب مصرف روزانه و پذیرایی.",
+        image: "/images/products/0105.jpeg",
+        price: 750000
+    },
+    {
+        id: 105,
+        name: "عطر لباس Doa با رایحه اسطوخودوس و مگنولیا ۲۱۰ گرم",
+        category: "شوینده",
+        description: "عطر لباس Doa با رایحه اسطوخودوس و مگنولیا و وزن ۲۱۰ گرم، مناسب استفاده برای ایجاد رایحه‌ای خوشایند و ماندگار روی لباس‌ها. مناسب استفاده روزانه و ایجاد حس تازگی و خوشبویی بیشتر لباس‌ها.",
+        image: "/images/products/0106.jpeg",
+        price: 1300000
+    },
+    {
+        id: 106,
+        name: "پودر خوش‌بوکننده لباس Doa صورتی ۲۱۰ گرم",
+        category: "شوینده",
+        description: "پودر خوش‌بوکننده لباس Doa صورتی با وزن ۲۱۰ گرم، مناسب استفاده برای ایجاد رایحه‌ای خوشایند و ماندگار روی لباس‌ها. مناسب استفاده روزانه برای ایجاد حس تازگی و خوشبویی بیشتر لباس‌ها.",
+        image: "/images/products/0107.jpeg",
+        price: 1300000
+    },
+    {
+        id: 107,
+        name: "خوشبوکننده و نرم‌کننده لباس دوآ Doa با رایحه گل ارکیده",
+        category: "شوینده",
+        description: "خوشبوکننده و نرم‌کننده لباس دوآ Doa با رایحه گل ارکیده، مناسب استفاده در شست‌وشوی لباس‌ها برای ایجاد رایحه‌ای دلپذیر و کمک به نرمی و ����طافت بیشتر پارچه. مناسب استفاده روزانه برای داشتن لباس‌هایی خوشبو و نرم.",
+        image: "/images/products/0108.jpeg",
+        price: 1300000
+    },
+    {
+        id: 108,
+        name: "قهوه فوری نسکافه کلاسیک ۲۰۰ گر��",
+        category: "نوشیدنی",
+        description: "قهوه فوری نسکافه کلاسیک با وزن ۲۰۰ گرم، با عطر و طعم کلاسیک قهوه و مناسب تهیه سریع و آسان یک فنجان قهوه. مناسب مصرف روزانه در منزل، محل کار و پذیرایی.",
+        image: "/images/products/0109.jpeg",
+        price: 1800000
+    },
+    {
+        id: 109,
+        name: "دستمال کاغذی اقتصادی گلریز ۲۰۰ برگ بسته ۱۰ عددی",
+        category: "بهداشتی",
+        description: "دستمال کاغذی اقتصادی گلریز با ۲۰۰ برگ در هر بسته و بسته‌بندی ۱۰ عددی، مناسب استفاده روزمره در منزل، محل کار و پذیرایی.",
+        image: "/images/products/0110.jpeg",
+        price: 699000,
+        oldPrice: 710000
+    },
+    {
+        id: 110,
+        name: "دستکش نظافت چندمنظوره گلریز ساق بلند Multi Purpose سایز S، M و L",
+        category: "بهداشتی",
+        description: "دستکش نظافت چندمنظوره گلریز مدل Multi Purpose، مناسب برای انجام امور نظافتی و شست‌وشوی روزمره در منزل. این محصول در سایزهای S، M و L به صورت ساق کوتاه و ساق بلندعرضه می‌شود و برای محافظت از دست‌ها هنگام نظافت و شست‌وشو مناسب است.",
+        image: "/images/products/0111.jpeg",
+        price: 290000
+    },
+    {
+        id: 111,
+        name: "دستمال توالت گلریز سفید ۸ رول",
+        category: "بهداشتی",
+        description: "دستمال توالت گلریز با رنگ سفید و بسته ۸ عددی، مناسب استفاده روزانه در منزل، محل کار و سرویس‌های بهداشتی. طراحی‌شده برای استفاده راحت و بهداشتی در مصرف روزمره.",
+        image: "/images/products/0112.jpeg",
+        price: 490000,
+        oldPrice: 528000
+    },
+    {
+        id: 112,
+        name: "دستمال توالت گلریز ۱۲ رول",
+        category: "بهداشتی",
+        description: "دستمال توالت گلریز در بسته ۱۲ عددی، مناسب استفاده روزانه در منزل، محل کار و سرویس‌های بهداشتی. گزینه‌ای مناسب برای مصرف خانوادگی و روزمره.",
+        image: "/images/products/0113.jpeg",
+        price: 699000,
+        oldPrice: 720000
+    },
+    {
+        id: 113,
+        name: "دستمال حوله‌ای سفید گلریز ۲ رول",
+        category: "بهداشتی",
+        description: "دستمال حوله‌ای گلریز با رنگ سفید و بسته ۲ عددی، مناسب استفاده روزمره در آشپزخانه، منزل و محیط کار. مناسب برای خشک کردن دست‌ها و پاک کردن سطوح و مصارف روزانه.",
+        image: "/images/products/0114.jpeg",
+        price: 290000
+    },
+    {
+        id: 114,
+        name: "سفره یک‌بار مصرف پاندا مدل 007 رول 50 متری سایز 100*100",
+        category: "بهداشتی",
+        description: "سفره یک‌بار مصرف پاندا مدل 007 به صورت رول ۱۰ متری، مناسب استفاده در منزل، مهمانی، پیک‌نیک و مراسم مختلف. گزینه‌ای کاربردی برای پوشش میز و سفره و کمک به نظافت آسان پس از صرف غذا.",
+        image: "/images/products/0115.jpeg",
+        price: 520000
+    },
+    {
+        id: 115,
+        name: "سفره یک‌بار مصرف تشریفاتی پاندا رول ۱۰ متری سایز 10*120",
+        category: "بهداشتی",
+        description: "سفره یک‌بار مصرف تشریفاتی پاندا به صورت رول ۱۰ متری، مناسب استفاده در مهمانی‌ها، مراسم، پذیرایی و دورهمی‌ها. طراحی‌شده برای پوشش میز و سفره و کمک به نظافت آسان پس از صرف غذا.",
+        image: "/images/products/0116.jpeg",
+        price: 560000
+    },
+    {
+        id: 117,
+        name: "کیسه زباله بنددارضخیم پاندا سایز متوسط 6۰×۵۵ سانتی‌متر ۳۶ عددی",
+        category: "بهداشتی",
+        description: "کیسه زباله رول پرفراژدار ضخیم پاندا در سایز متوسط با ابعاد ۷۰×۵۵ سانتی‌متر و بسته ۳۶ عددی، مناسب جمع‌آوری انواع زباله در منزل، محل کار و محیط‌های مختلف. طراحی پرفراژدار برای جدا کردن آسان کیسه‌ها و ضخامت مناسب برای استفاده روزمره.",
+        image: "/images/products/0118.jpeg",
+        price: 340000
+    },
+    {
+        id: 118,
+        name: "کیسه زباله رول پرفراژدار پاندا سایز  متوسط ۸۰×۶۵  سانتی‌متر ۲۶ عددی",
+        category: "بهداشتی",
+        description: "کیسه زباله بنددار پاندا با ابعاد ۸۰×۶۵ سانتی‌متر و بسته ۱۵ عددی، مناسب جمع‌آوری و نگهداری انواع زباله در منزل، محل کار و محیط‌های مختلف. دارای بند برای بسته شدن آسان و حمل راحت‌تر کیسه.",
+        image: "/images/products/0120.jpeg",
+        price: 435000
+    },
+    {
+        id: 120,
+        name: "کیسه فریزر جعبه‌ای آسان مصرف پاندا ۲۰۰ عددی",
+        category: "بهداشتی",
+        description: "کیسه فریزر جعبه‌ای آسان مصرف پاندا در بسته ۲۰۰ عددی، مناسب نگهداری و بسته‌بندی انواع مواد غذایی در یخچال و فریزر. طراحی جعبه‌ای برای استفاده آسان و جدا کردن راحت کیسه‌ها، مناسب مصرف روزمره در آشپزخانه.",
+        image: "/images/products/0121.jpeg",
+        price: 380000
+    },
+    {
+        id: 121,
+        name: "کیسه فریزر لفافی پاندا Panda ۱۰۰ عددی",
+        category: "بهداشتی",
+        description: "کیسه فریزر لفافی پاندا Panda در بسته ۱۰۰ عددی، مناسب نگهداری و بسته‌بندی انواع مواد غذایی در یخچال و فریزر. مناسب استفاده روزمره در آشپزخانه و بسته‌بندی بهداشتی مواد غذایی.",
+        image: "/images/products/0122.jpeg",
+        price: 130000
+    },
+    {
+        id: 122,
+        name: "کیسه فریزر زیپ‌دار ضخیم پاندا Panda",
+        category: "بهداشتی",
+        description: "کیسه فریزر زیپ‌دار ضخیم پاندا Panda، مناسب نگهداری و بسته‌بندی انواع مواد غذایی در یخچال و فریزر. دارای طراحی زیپ‌دار برای بسته‌بندی و دسترسی آسان.",
+        image: "/images/products/0123.jpeg"
+    },
+    {
+        id: 123,
+        name: "کیسه پلاستیک زیپ‌دار بزرگ پاندا ۱۵ عددی",
+        category: "بهداشتی",
+        description: "کیسه پلاستیک زیپ‌دار بزرگ پاندا در بسته ۱۵ عددی، مناسب نگهداری و بسته‌بندی انواع مواد غذایی و اقلام مختلف. دارای زیپ برای بسته‌بندی آسان و حفظ بهتر محتویات.",
+        image: "/images/products/0124.jpeg"
+    },
+    {
+        id: 124,
+        name: "کیسه فریزر لفافی تقویمی چسب‌دار ۲۵×۳۵ پاندا ۱۰۰ عددی",
+        category: "بهداشتی",
+        description: "کیسه فریزر لفافی تقویمی چسب‌دار پاندا در ابعاد ۲۵×۳۵ سانتی‌متر و بسته ۱۰۰ عددی، مناسب نگهداری و بسته‌بندی انواع مواد غذایی در یخچال و فریزر.",
+        image: "/images/products/a33f3814-5969-4ede-9af8-5f769e47b7e6.jpg",
+        price: 140000
+    },
+    {
+        id: 125,
+        name: "دستمال کاغذی اقتصادی گلریز ۵۰۰ برگ ۶ عددی",
+        category: "بهداشتی",
+        description: "دستمال کاغذی اقتصادی گلریز در بسته ۶ عددی، هر بسته شامل ۵۰۰ برگ، مناسب استفاده روزمره در منزل، محل کار و سایر محیط‌ها.",
+        image: "/images/products/0126.jpeg",
+        price: 920000,
+        oldPrice: 1080000
+    },
+    {
+        id: 126,
+        name: "دستمال توالت پنتکس مدل اقتصادی ۱۰۰ برگ",
+        category: "بهداشتی",
+        description: "دستمال توالت پنتکس مدل اقتصادی با ۱۰۰ برگ، مناسب استفاده روزمره و بهداشت شخصی.",
+        image: "/images/products/0127.jpeg",
+        price: 60000
+    },
+    {
+        id: 127,
+        name: "دستکش یک‌بار مصرف سلفونی پاندا ۱۰۰ عددی",
+        category: "بهداشتی",
+        description: "دستکش یک‌بار مصرف سلفونی پاندا در بسته ۱۰۰ عددی، مناسب استفاده در آشپزخانه، بسته‌بندی مواد غذایی و انجام امور روزمره.",
+        image: "/images/products/0128.jpeg",
+        price: 150000
+    },
+    {
+        id: 128,
+        name: "دستکش یک‌بار مصرف چندمنظوره پاندا ۱۰۰ عددی",
+        category: "بهداشتی",
+        description: "دستکش یک‌بار مصرف جعبه ای چندمنظوره پاندا در بسته ۱۰۰ عددی، مناسب استفاده در آشپزخانه، نظافت، بسته‌بندی و انجام امور روزمره.",
+        image: "/images/products/0129.jpeg",
+        price: 180000
+    },
+    {
+        id: 129,
+        name: "دستکش آشپزخانه ضدحساسیت آنتی‌باکتریال ایزی کلین ساق کوتاه  سایز S، M و L",
+        category: "بهداشتی",
+        description: "دستکش آشپزخانه ایزی کلین با خاصیت ضدحساسیت و آنتی‌باکتریال، مناسب انجام امور آشپزخانه و نظافت. عرضه در مدل‌های ساق کوتاه و ساق بلند و سایزهای S، M و L.",
+        image: "/images/products/0130.jpeg",
+        price: 450000
+    },
+    {
+        id: 130,
+        name: "دستمال آشپزخانه میکروفایبر پاکیزان ۴ عددی",
+        category: "بهداشتی",
+        description: "دستمال آشپزخانه میکروفایبر پاکیزان در بسته ۴ عددی، مناسب پاک کردن و نظافت سطوح آشپزخانه و سایر سطوح منزل.",
+        image: "/images/products/0131.jpeg",
+        price: 430000
+    },
+    {
+        id: 131,
+        name: "دستمال جیبی گلریز مدل Happy Days، ۱۰ برگ، بسته ۱۲ عددی",
+        category: "بهداشتی",
+        description: "دستمال جیبی گلریز مدل Happy Days در بسته ۱۲ عددی، هر بسته شامل ۱۰ برگ، مناسب استفاده شخصی و همراه داشتن در کیف یا خودرو.",
+        image: "/images/products/0132.jpeg"
+    },
+    {
+        id: 132,
+        name: "کیسه زباله پاندا سایز ۹۰×۷۰ سانتی‌متر ۲۰ عددی",
+        category: "بهداشتی",
+        description: "کیسه زباله پاندا با ابعاد ۹۰×۷۰ سانتی‌متر و بسته ۲۰ عددی، مناسب جمع‌آوری و نگهداری انواع زباله در منزل، محل کار و محیط‌های مختلف. گزینه‌ای کاربردی برای استفاده روزمره و نظافت آسان.",
+        image: "/images/products/0133.jpeg",
+        price: 238000
+    },
+    {
+        id: 133,
+        name: "کیسه زباله توپی سایز 80×55 سانتی‌متر رنگ مشکی پاندا 40 عددی",
+        category: "بهداشتی",
+        description: "کیسه زباله توپی پاندا با ابعاد 80×55 سانتی‌متر، رنگ مشکی و بسته 40 عددی، مناسب جمع‌آوری و نگهداری انواع زباله در منزل، محل کار و محیط‌های مختلف. گزینه‌ای کاربردی برای استفاده روزمره و نظافت آسان.",
+        image: "/images/products/0134.jpeg",
+        price: 430000
+    },
+    {
+        id: 134,
+        name: "ابر اسکاچ محافظ ناخن پاکیزان",
+        category: "بهداشتی",
+        description: "ابر اسکاچ محافظ ناخن پاکیزان، مناسب شست‌وشوی ظروف و سطوح مختلف با طراحی کاربردی برای محافظت بیشتر از ناخن‌ها هنگام شست‌وشو. گزینه‌ای مناسب برای استفاده روزمره در آشپزخانه.",
+        image: "/images/products/0135.jpeg",
+        price: 105000
+    },
+    {
+        id: 135,
+        name: "تفلون شوی سخت پاکیزان",
+        category: "بهداشتی",
+        description: "اسکاچ تفلون‌شوی سخت پاکیزان، مناسب برای شست‌وشوی ظروف و سطوح مختلف و پاک کردن لکه‌ها و باقی‌مانده‌های سرسخت. گزینه‌ای کاربردی برای نظافت روزمره آشپزخانه.",
+        image: "/images/products/0136.jpeg",
+        price: 100000
+    },
+    {
+        id: 136,
+        name: "مایع دستشویی صدفی اوه بنفش ۵۰۰ میل",
+        category: "بهداشتی",
+        description: "مایع دستشویی صدفی اوه با رایحه‌ای خوشایند و حجم ۵۰۰ میل، مناسب شست‌وشوی روزمره دست‌ها و حفظ لطافت و پاک��زگی پوست.",
+        image: "/images/products/0137.jpeg",
+        price: 190000
+    },
+    {
+        id: 137,
+        name: "مایع دستشویی صدفی اوه صورتی ۵۰۰ میل",
+        category: "بهداشتی",
+        description: "مایع دستشویی صدفی اوه صورتی با حجم ۵۰۰ میل، مناسب شست‌وشوی روزمره دست‌ها و کمک به حفظ پاکیزگی و لطافت پوست.",
+        image: "/images/products/0138.jpeg",
+        price: 190000
+    },
+    {
+        id: 138,
+        name: "سفیدکننده و لکه‌زدای دامستوس DOMESTOS با رایحه لیمو حجم ۷۵۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "مایع سفیدکننده دامستوس ایرانی با رایحه لیمو، مناسب برای ضدعفونی و پاکیزگی سطوح و شست‌وشوی البسه، دارای فرمولی بسیار غلیظ، نابودکننده میکروب‌ها، از بین برنده رسوبات آهکی و سرسخت",
+        image: "/images/products/0139.jpeg"
+    },
+    {
+        id: 139,
+        name: "سفیدکننده و لکه‌زدای دامستوس DOMESTOS حجم ۷۵۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "سفیدکننده و لکه‌زدای دامستوس DOMESTOS با حجم ۷۵۰ میلی‌لیتر، مناسب برای پاکیزگی و از بین بردن لکه‌ها و آلودگی‌های سرسخت از سطوح مختلف.",
+        image: "/images/products/0140.jpeg"
+    },
+    {
+        id: 140,
+        name: "سفیدکننده و لکه‌زدای دامستوس DOMESTOS با رایحه کاج حجم ۷۵۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "سفیدکننده و لکه‌زدای دامستوس DOMESTOS با رایحه کاج و حجم ۷۵۰ میلی‌لیتر، مناسب برای پاکیزگی سطوح و از بین بردن لکه‌ها و آلودگی‌های سرسخت.",
+        image: "/images/products/0141.jpeg"
+    },
+    {
+        id: 141,
+        name: "مایع کرمی پاک‌کننده چندمنظوره سطوح سیف حجم ۷۵۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "مایع کرمی پاک‌کننده چندمنظوره سطوح سیف با حجم ۷۵۰ میلی‌لیتر، مناسب برای پاک کردن چربی، لکه و آلودگی از سطوح مختلف و ایجاد تمیزی و درخشندگی.",
+        image: "/images/products/0142.jpeg",
+        price: 250000
+    },
+    {
+        id: 142,
+        name: "مایع کرمی پاک‌کننده سطوح سیف مدل زرد حجم ۷۵۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "مایع کرمی پاک‌کننده سطوح سیف مدل زرد با حجم ۷۵۰ میلی‌لیتر، مناسب برای پاک کردن چربی، لکه و آلودگی از سطوح مختلف و کمک به ایجاد تمیز���� و درخشندگی.",
+        image: "/images/products/0143.jpeg",
+        price: 250000
+    },
+    {
+        id: 143,
+        name: "مایع کرمی پاک‌کننده سیف مناسب سطوح بهداشتی و شیرآلات",
+        category: "شوینده",
+        description: "مایع کرمی پاک‌کننده سیف، ��ناسب برای تمیز کرد���� سطوح ��هداشتی و شیرآلات و کمک به از بین بردن لکه‌ها، رسوبات و آلودگی‌های روزمره.",
+        image: "/images/products/0144.jpeg",
+        price: 315000
+    },
+    {
+        id: 144,
+        name: "مایع کرمی سیف پاک‌کننده چندمنظوره سطوح و منسوجات",
+        category: "شوینده",
+        description: "مایع کرمی سیف، پاک‌کننده چندمنظوره سطوح و منسوجات، مناسب برای پاک کردن لکه‌ها و آلودگی‌های روزمره و کمک به تمیزی بهتر سطوح و پارچه‌ها.",
+        image: "/images/products/0145.jpeg",
+        price: 315000
+    },
+    {
+        id: 145,
+        name: "شیشه‌شوی آبی نویتکس ۵۰۰ میل",
+        category: "شوینده",
+        description: "شیشه‌شوی آبی نویتکس با حجم ۵۰۰ میل، مناسب برای تمیز کردن شیشه، آینه و سطوح شفاف و کمک به از بین بردن لکه و اثر انگشت.",
+        image: "/images/products/0146.jpeg",
+        price: 150000
+    },
+    {
+        id: 146,
+        name: "مایع لباسشویی امو مدل Active وزن ۱.۵ کیلوگرم",
+        category: "شوینده",
+        description: "مایع لباسشویی امو مدل Active با وزن ۱.۵ کیلوگرم، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها با حفظ کیفیت و لطافت پارچه.",
+        image: "/images/products/0147.jpeg",
+        price: 470000
+    },
+    {
+        id: 147,
+        name: "مایع ماشین لباسشویی سافتلن با رایحه گل حجم ۱۸۰۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "مایع ماشین لباسشویی سافتلن با رایحه گل و حجم ۱۸۰۰ میلی‌لیتر، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها با ایجاد رایحه‌ای خوشایند.",
+        image: "/images/products/0148.jpeg",
+        price: 530000
+    },
+    {
+        id: 148,
+        name: "مایع لباسشویی اکتیو حجم ۲.۵ لیتری",
+        category: "شوینده",
+        description: "مایع لباسشویی اکتیو با حجم ۲.۵ لیتر، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها در شست‌وشوی روزمره.",
+        image: "/images/products/0149.jpeg",
+        price: 450000
+    },
+    {
+        id: 149,
+        name: "مایع دستشویی اکتیو مدل رویای ابریشمی بنفش ۳۷۵۰ گرمی",
+        category: "بهداشتی",
+        description: "مایع دستشویی اکتیو مدل رویای ابریشمی بنفش با وزن ۳۷۵۰ گرم، مناسب شست‌وشوی روزمره دست‌ها و کمک به حفظ پاکیزگی و لطافت پوست.",
+        image: "/images/products/0150.jpeg",
+        price: 670000
+    },
+    {
+        id: 150,
+        name: "مایع ظرفشویی اولترا پریل با رایحه لیمو وزن ۱۰۰۰ گرم",
+        category: "شوینده",
+        description: "مایع ظرفشویی اولترا پریل با رایحه لیمو و وزن ۱۰۰۰ گرم، مناسب شست‌وشوی انواع ظروف و کمک به از بین بردن چربی و باقی‌مانده‌های غذا.",
+        image: "/images/products/0151.jpeg",
+        price: 210000
+    },
+    {
+        id: 151,
+        name: "مایع لباسشویی هوم لند مدل General حجم ۲۸۰۰ میلی‌لیتر",
+        category: "شوینده",
+        description: "مایع لباسشویی هوم لند مدل General با حجم ۲۸۰۰ میلی‌لیتر، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها در شست‌وشوی روزمره.",
+        image: "/images/products/0152.jpeg",
+        price: 590000
+    },
+    {
+        id: 152,
+        name: "مایع لباسشویی پرسیل Deep Clean با رایحه لوندر وزن ۲.۷ کیلوگرم",
+        category: "شوینده",
+        description: "مایع لباسشویی پرسیل Deep Clean با رایحه لوندر و وزن ۲.۷ کیلوگرم، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌های سرسخت با ایجاد رایحه‌ای خوشایند.",
+        image: "/images/products/0153.jpeg",
+        price: 790000
+    },
+    {
+        id: 153,
+        name: "مایع لباسشویی پرسیل مدل یونیورسال وزن ۲.۷ کیلوگرم",
+        category: "شوینده",
+        description: "مایع لباسشویی پرسیل مدل یونیورسال با وزن ۲.۷ کیلوگرم، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها در شست‌وشوی روزمره.",
+        image: "/images/products/0154.jpeg",
+        price: 780000
+    },
+    {
+        id: 154,
+        name: "مایع لباسشویی تاژ ۲۷۰۰ گرمی",
+        category: "شوینده",
+        description: "مایع لباسشویی تاژ با وزن ۲۷۰۰ گرم، مناسب شست‌وشوی انواع لباس‌ها و کمک به پاک شدن لکه‌ها و آلودگی‌ها در شست‌وشوی روزمره.",
+        image: "/images/products/0155.jpeg",
+        price: 700000
+    },
+    {
+        id: 155,
+        name: "مایع ظرفشویی پریل اولترا ۳۷۵۰ گرمی",
+        category: "شوینده",
+        description: "مایع ظرفشویی پریل اولترا با وزن ۳۷۵۰ گرم، مناسب شست‌وشوی انواع ظروف و کمک به از بین بردن چربی‌ها و باقی‌مانده‌های غذا.",
+        image: "/images/products/0156.jpeg",
+        price: 730000
+    },
+    {
+        id: 156,
+        name: "شامپو تقویت‌کننده و ضدریزش مو سینره مردانه حجم ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو تقویت‌کننده و ضدریزش مو سینره مردانه، مناسب انواع مو، حاوی ویتامین‌های E و B5 و عصاره ساوپالمتو و Neem، بدون پارابن و مناسب استفاده روزمره.",
+        image: "/images/products/0157.jpeg",
+        price: 310000
+    },
+    {
+        id: 157,
+        name: "شامپو حجم‌دهنده مو سینره مناسب موهای نازک و بی‌حالت حجم ۲۵۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو حجم‌دهنده مو سینره با حجم ۲۵۰ میلی‌لیتر، مناسب موهای نازک و بی‌حالت، حاوی ویتامین‌های E و B5 و عصاره جوجوبا، با خاصیت مرطوب‌کنندگی و کمک به کاهش الکتریسیته و تقویت تارهای مو.",
+        image: "/images/products/0158.jpeg",
+        price: 300000
+    },
+    {
+        id: 158,
+        name: "شامپو مو اکتیو مدل Fig Extract حجم ۴۰۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو مو اکتیو مدل Fig Extract با حجم ۴۰۰ میلی‌لیتر و حاوی عصاره انجیر، مناسب موهای چرب و نازک، با کمک به تنظیم چربی پوست سر و کاهش التهاب و خارش و همچنین کمک به براق و حجیم شدن مو.",
+        image: "/images/products/0159.jpeg",
+        price: 190000,
+        oldPrice: 208000
+    },
+    {
+        id: 159,
+        name: "شامپو مو اکتیو مدل Orange Extract حجم ۴۰۰ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "شامپو مو اکتیو مدل Orange Extract با حجم ۴۰۰ میلی‌لیتر، حاوی عصاره پرتقال و مناسب استفاده روزمره برای پاکیزگی، شادابی و مراقبت از مو.",
+        image: "/images/products/0160.jpeg",
+        price: 190000,
+        oldPrice: 208000
+    },
+    {
+        id: 160,
+        name: "کافی میکس رژیمی بدون شکر کلاسنو ۲۴۰ گرم",
+        category: "نوشیدنی",
+        description: "کافی میکس رژیمی بدون شکر کلاسنو با وزن ۲۴۰ گرم، مناسب تهیه یک نوشیدنی گرم با طعم قهوه و گزینه‌ای مناسب برای افرادی که نوشیدنی بدون شکر را ترجیح می‌دهند.",
+        image: "/images/products/0161.jpeg",
+        price: 580000,
+        oldPrice: 680000
+    },
+    {
+        id: 161,
+        name: "کافی میکس ۱×۳ نستله",
+        category: "نوشیدنی",
+        description: "کافی میکس ۱×۳ نستله، ترکیبی از قهوه، شکر و کافی‌میت برای تهیه سریع یک نوشیدنی گرم با طعم متعادل و دلپذیر.",
+        image: "/images/products/0162.jpeg",
+        price: 790000
+    },
+    {
+        id: 162,
+        name: "پودر مخلوط قهوه فوری ۳ در ۱ کرمی نسکافه",
+        category: "نوشیدنی",
+        description: "پودر مخلوط قهوه فوری ۳ در ۱ کرمی نسکافه، ترکیبی از قهوه فوری، شکر و کافی‌میت برای تهیه سریع یک نوشیدنی گرم با طعم کرمی و دلپذیر.",
+        image: "/images/products/0163.jpeg",
+        price: 950000
+    },
+    {
+        id: 163,
+        name: "کافی میکس کلاسنو Klassno Coffee MIX پک ۲۰ عددی",
+        category: "نوشیدنی",
+        description: "کافی میکس کلاسنو Klassno Coffee MIX در بسته ۲۰ عددی، مناسب تهیه سریع نوشیدنی گرم با طعم دلپذیر قهوه و گزینه‌ای کاربردی برای مصرف روزمره.",
+        image: "/images/products/0164.jpeg",
+        price: 920000
+    },
+    {
+        id: 164,
+        name: "خمیردندان سیگنال White System سفیدکننده",
+        category: "بهداشتی",
+        description: "خمیردندان سیگنال White System حاوی ترکیبات سفیدکننده طبیعی و کلسیم کربنات، مناسب کمک به کاهش لکه‌های سطحی مینای دندان و محافظت در برابر پوسیدگی با استفاده از فلوراید.",
+        image: "/images/products/0165.jpeg",
+        price: 270000
+    },
+    {
+        id: 165,
+        name: "خمیردندان Daily Whitening میسویک",
+        category: "بهداشتی",
+        description: "خمیردندان Daily Whitening میسویک، مناسب استفاده روزانه و کمک به پاک کردن لکه‌های سطحی دندان و حفظ پاکیزگی و درخشندگی لبخند.",
+        image: "/images/products/0166.jpeg",
+        price: 375000
+    },
+    {
+        id: 166,
+        name: "خمیردندان Zero Sensitive میسویک ترمیم‌کننده",
+        category: "بهداشتی",
+        description: "خمیردندان Zero Sensitive میسویک، مناسب دندان‌های حساس و کمک به محافظت و ترمیم بخش‌های آسیب‌دیده دندان و حفظ سلامت و پاکیزگی دهان.",
+        image: "/images/products/0167.jpeg",
+        price: 375000
+    },
+    {
+        id: 167,
+        name: "خمیردندان ضدزردی میسویک مدل 01 حجم ۷۵ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "خمیردندان ضدزردی میسویک مدل 01 با حجم ۷۵ میلی‌لیتر، دارای فناوری تصحیح رنگ و مناسب دندان‌های حساس، با خاصیت ضدباکتری و بدون پارابن و ترکیبات حساسیت‌زا.",
+        image: "/images/products/0168.jpeg"
+    },
+    {
+        id: 168,
+        name: "خمیردندان سفیدکننده میسویک مدل X-13 با طعم نعناع حجم ۷۵ میلی‌لیتر",
+        category: "بهداشتی",
+        description: "خمیردندان سفیدکننده میسویک مدل X-13 با طعم نعناع و حجم ۷۵ میلی‌لیتر، مناسب دندان‌های حساس و طبیعی و دارای فرمولاسیون بدون پراکساید برای استفاده روزمره.",
+        image: "/images/products/0169.jpeg"
+    },
+    {
+        id: 169,
+        name: "چای معطر مخصوص احمد ۲۵۰ گرمی",
+        category: "نوشیدنی",
+        description: "چای معطر مخصوص احمد با وزن ۲۵۰ گرم، مناسب تهیه یک نوشیدنی گرم و خوش‌عطر برای مصرف روزمره و پذیرایی.",
+        image: "/images/products/0170.jpeg",
+        price: 685000
+    },
+    {
+        id: 170,
+        name: "چای دوغزال سیلان شکسته ساده ۱۰۰ گرم",
+        category: "نوشیدنی",
+        description: "چای دوغزال سیلان شکسته ساده با وزن ۱۰۰ گرم، مناسب تهیه یک نوشیدنی گرم با عطر و طعم دلپذیر و گزینه‌ای مناسب برای مصرف روزمره.",
+        image: "/images/products/0171.jpeg",
+        price: 280000
+    },
+    {
+        id: 171,
+        name: "چای دوغزال سیلان شکسته ساده ۲۵۰ گرمی",
+        category: "نوشیدنی",
+        description: "چای دوغزال سیلان شکسته ساده با وزن ۲۵۰ گرم، مناسب تهیه یک نوشیدنی گرم با عطر و طعم دلپذیر و گزینه‌ای مناسب برای مصرف روزمره.",
+        image: "/images/products/0172.jpeg",
+        price: 675000
+    },
+    {
+        id: 172,
+        name: "چای دوغزال سیلان شکسته ارل گری ۲۵۰ گرم",
+        category: "نوشیدنی",
+        description: "چای دوغزال سیلان شکسته ارل گری با وزن ۲۵۰ گرم، دارای عطر و طعم خوشایند ارل گری و مناسب تهیه یک نوشیدنی گرم و معطر برای مصرف روزمره و پذیرایی.",
+        image: "/images/products/0173.jpeg",
+        price: 675000
+    },
+    {
+        id: 173,
+        name: "رول ضد تعریق  ایموشن",
+        category: "بهداشتی",
+        description: "دئودورانت رولی ایموشن نچرال بریز (50 میلی لیتر)",
+        image: "/images/products/971d8a66-7403-49fa-97d1-89cf9728895e.jpg",
+        price: 780000
+    },
+    {
+        id: 174,
+        name: "مام صابونی مردانه رکسونا",
+        category: "بهداشتی",
+        description: "مام صابونی مردانه رکسوناREXONA اصل روسیه 72 ساعته حجم 50 گرم",
+        image: "/images/products/3682c7b5-786f-4233-989f-d052a6544608.jpg",
+        price: 1350000
+    },
+    {
+        id: 175,
+        name: "استیک ضد تعریق مردانه",
+        category: "بهداشتی",
+        description: "استیک ضد تعریق مردانه Xtra Cool رکسونا 40 میل",
+        image: "/images/products/ae3c1862-d9fd-4fcc-8b9e-c812ce6b2a87.jpg",
+        price: 1300000
+    },
+    {
+        id: 176,
+        name: "نودل آماده ایندومی",
+        category: "مواد غذایی",
+        description: "نودل آماده ایندومی İndomie tavuk با طعم مرغ 70 گرم،5عددی",
+        image: "/images/products/b4a343ed-6d2f-4b79-9b9b-2b25276f62ce.jpg",
+        price: 600000
+    },
+    {
+        id: 177,
+        name: "کرم پروبیوتیک شیر بادام آرکو",
+        category: "بهداشتی",
+        description: "کرم پروبیوتیک شیر بادام آرکو نم Arko nem مرطوب کننده 48 ساعته حجم ۱۵۰ میل",
+        image: "/images/products/b14328ab-c008-47d0-a388-6bf13afdecfb.jpg",
+        price: 550000
+    },
+    {
+        id: 178,
+        name: "کرم مرطوب کننده آرکو",
+        category: "بهداشتی",
+        description: "کرم مرطوب کننده آرکو نم مدل هیالورونیک اسید حجم ۱۵۰  میلی‌لیتر",
+        image: "/images/products/b7408337-149f-4ffe-8381-90e66e04b038.jpg",
+        price: 550000
+    },
+    {
+        id: 179,
+        name: "اسپری بدن اسکالیم",
+        category: "بهداشتی",
+        description: "اسپری بدن اسکالیم 250 میل رایحه های  مختلف \nماندگاری بالا",
+        image: "/images/products/65c14f16-15c2-4d69-8796-97d71e4fe208.jpg",
+        price: 750000
+    },
+    {
+        id: 180,
+        name: "شامپو بدن پروتئین شیر لاته",
+        category: "بهداشتی",
+        description: "شامپو بدن پروتئین شیر لاته یک لیتری مالزیا\nنرم کننده و آبرسان پوست",
+        image: "/images/products/2d185a40-a0bc-400b-b30e-2fbd43116737.jpg",
+        price: 1000000
+    },
+    {
+        id: 181,
+        name: "شامپو تقویت کننده و ضد ریزش مو لورآل",
+        category: "بهداشتی",
+        description: "شامپو تقویت کننده و ضد ریزش مو لورآل مدل Direnc مناسب برای موهای کم‌حجم و نازک حجم 285 میلی‌لیتر، مرطوب‌کننده، محکم‌کننده، لطافت‌بخش، استفاده روزانه",
+        image: "/images/products/172e04f3-9276-4872-8b19-b9d159db8178.jpg",
+        price: 1000000
+    },
+    {
+        id: 182,
+        name: "شامپو مو هد اند شولدرز",
+        category: "بهداشتی",
+        description: "شامپو مو هد اند شولدرز مدل MENTOL FERAHLIGI حجم ۳۰۰ میلی‌لیتر، ضد شوره، ��اه��‌دهنده ��رب��، تقویت‌کننده و ترمیم‌کننده",
+        image: "/images/products/e6f6dc07-97a7-4dbd-a4fa-76905857a462.jpg",
+        price: 990000,
+        oldPrice: 1400000
+    },
+    {
+        id: 183,
+        name: "شامپو بدن بی بیوتی",
+        category: "بهداشتی",
+        description: "شامپو بدن بی بیوتی رایحه نمک دریای تازه و ترنج\nحجم ۲۵۰ میل\nساخت کشور ترکیه",
+        image: "/images/products/279bb71d-6b05-4925-8a98-c7209f2e045c.jpg",
+        price: 460000
+    },
+    {
+        id: 184,
+        name: "شامپو بدن بی بیوتی",
+        category: "بهداشتی",
+        description: "شامپو بدن بی بیوتی رایحه  وانیل و تمشک\nحجم ۲۵۰ میل\nساخت کشور ترکیه",
+        image: "/images/products/dcd760d6-5743-47a8-b0e5-ad99527f1b71.jpg",
+        price: 460000
+    },
+    {
+        id: 185,
+        name: "شامپو بدن بی بیوتی",
+        category: "بهداشتی",
+        description: "شامپو بدن بی بیوتی رایحه  انار و بامبو\nحجم ۲۵۰ میل\nساخت کشور ترکیه",
+        image: "/images/products/979cd4d6-2cd1-4e99-b063-800ccd2c1db7.jpg",
+        price: 460000
+    },
+    {
+        id: 186,
+        name: "شامپو بدن بی بیوتی",
+        category: "بهداشتی",
+        description: "شامپو بدن بی بیوتی رایحه  لیمو و چای سبز\nحجم ۲۵۰ میل\nساخت کشور ترکیه",
+        image: "/images/products/733851af-68a6-49eb-b3b6-97915faa3ae1.jpg",
+        price: 460000
+    },
+    {
+        id: 187,
+        name: "روغن ذرت سونار",
+        category: "مواد غذایی",
+        description: "روغن ذرت سونار ۵ لیتری\nمحصولی از کشور ترکیه",
+        image: "/images/products/50d244cd-263a-4189-9c11-6e4bbb875462.jpg",
+        price: 7000000
+    },
+    {
+        id: 188,
+        name: "روغن زیتون فرابکر",
+        category: "مواد غذایی",
+        description: "روغن زیتون فرابکر واکیف بیرلیک ۵ لیتری\nمحصول کشور ترکیه",
+        image: "/images/products/252e9613-5177-4ee9-840e-88c7426b22f8.jpg",
+        price: 7000000
+    },
+    {
+        id: 189,
+        name: "بیسکویت کرم‌دار کاکائویی",
+        category: "مواد غذایی",
+        description: "بیسکویت کرم‌دار کاکائویی اتی نرو مدل کرمالی بیسکوییت بسته ۱۱۰ گرمی\nمحصول کشور ترکیه",
+        image: "/images/products/62b86c29-2099-4b63-8338-86cd4ff57aba.jpg",
+        price: 250000
+    },
+    {
+        id: 190,
+        name: "بیسکوییت کرم دار",
+        category: "مواد غذایی",
+        description: "بیسکوییت کرم دار\nکرم شکلاتی اولکر ۲۲۹ گرم\nمحصول کشور ترکیه",
+        image: "/images/products/b710e849-fa88-4177-bea0-4be9c969b4fe.jpg",
+        price: 700000
+    },
+    {
+        id: 191,
+        name: "بیسکویت اتی پتی بور",
+        category: "مواد غذایی",
+        description: "بیسکویت اتی پتی بور 270 گرم\n کرم دار \nطعم  فندق کاکائویی \nساخت کشور ترکیه",
+        image: "/images/products/b8b151f9-99b3-4b88-b343-9d2cd4b7119e.jpg",
+        price: 700000
+    },
+    {
+        id: 192,
+        name: "ویفر کرم دار فندقی",
+        category: "مواد غذایی",
+        description: "ویفر کرم فندقی \n۲۲۰گرم\nساخت کشور ترکیه",
+        image: "/images/products/b165df59-f57e-4dff-8351-59c373b331cf.jpg",
+        price: 450000
+    },
+    {
+        id: 193,
+        name: "شکلات هوبی",
+        category: "مواد غذایی",
+        description: "شکلات هوبی با مغز فندق اولکر \n600 گرم\n بسته 100 عددی",
+        image: "/images/products/f89697eb-c1a5-4fe2-b3b5-991b8f15e31e.jpg",
+        price: 30000
+    },
+    {
+        id: 194,
+        name: "خوشبوکننده و نرم‌کننده لباس «دوآ»",
+        category: "شوینده",
+        description: "خوشبوکننده و نرم‌کننده لباس «دوآ» (Doa) - رایحه کهربا و رز",
+        image: "/images/products/fb9f695b-d8bf-440e-b2ab-b4ac7c077c12.jpg"
+    },
+    {
+        id: 195,
+        name: "خوشبوکننده و نرم‌کننده لباس «دوآ» (Doa",
+        category: "شوینده",
+        description: "خوشبوکننده و نرم‌کننده لباس «دوآ» (Doa) - رایحه   گل لیلیوم و  لوتوس",
+        image: "/images/products/a77b751d-be05-449b-a810-cbcdc5625cad.jpg"
+    },
+    {
+        id: 196,
+        name: "اسپری خوشبو کننده  یوموش",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده شکوفه گیلاس یوموش Yumoş مدل Sakura | حجم 450 میلی‌لیتر",
+        image: "/images/products/b5f361a2-bf86-44eb-b787-3c031d020b70.jpg",
+        price: 1100000
+    },
+    {
+        id: 197,
+        name: "سپری خوشبوکننده لباس و سطوح پارچه‌ای یوموش",
+        category: "بهداشتی",
+        description: "سپری خوشبوکننده لباس و سطوح پارچه‌ای یوموش Yumoş \nرایحه کهربا\n۴۵۰ میلی‌لیتر",
+        image: "/images/products/02f0cb43-1173-47ad-b31b-854f0dda6a91.jpg"
+    },
+    {
+        id: 198,
+        name: "اسپری خوشبوکننده یوموش",
+        category: "بهداشتی",
+        description: "اسپری خوشبوکننده یوموش مدل Lilyum رایحه گل سوسن حجم 450 میلی لیتر",
+        image: "/images/products/a3d7e81c-c92e-4a69-b8e7-39ba4653f623.jpg",
+        price: 1100000
+    },
+    {
+        id: 199,
+        name: "اسپری خوشبو کننده یوموش",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده یوموش با رایحه گل نرگس حجم ۴۳۰ میلی‌لیتر",
+        image: "/images/products/af6f48a5-295d-4e13-b078-1ea22fad4731.jpg",
+        price: 1100000
+    },
+    {
+        id: 200,
+        name: "اسپری خوشبو کننده اتاق",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده اتاق با رایحه انبه و خربزه از برند حیات آلفا\n حجم ۳۵۰ میلی لیتر",
+        image: "/images/products/ac701c56-7ad6-4c25-bd75-04b2bab9aee4.jpg",
+        price: 750000
+    },
+    {
+        id: 201,
+        name: "اسپری خوشبوکنندهوا «حیات آلفا»",
+        category: "بهداشتی",
+        description: "اسپری خوشبوکنندهوا «حیات آلفا» (Hayat Alfa) \n مدل «باغ گل» (Flower Garden) \n۳۵۰ میلی‌لیتر",
+        image: "/images/products/278557cf-2c83-49c5-bed0-0a3f9b8d4d75.jpg"
+    },
+    {
+        id: 202,
+        name: "خوشبوکننده لباس لنور",
+        category: "شوینده",
+        description: "خوشبوکننده لباس لنور 155گرم Lenor رایحه گل یاس و سدر سپید",
+        image: "/images/products/60763518-7db9-4542-bef6-842f027ff001.jpg"
+    },
+    {
+        id: 203,
+        name: "خوشبو کننده لباس لنور",
+        category: "شوینده",
+        description: "خوشبو کننده لباس لنور بنفش\n lenor \nوزن 176 گرم",
+        image: "/images/products/05696dc5-fe24-4ad3-a05d-076cbbc21552.jpg"
+    },
+    {
+        id: 204,
+        name: "خوشبوکننده لباس لنور",
+        category: "شوینده",
+        description: "خوشبوکننده لباس لنور با رایحه گل های تازه پنبه \nمدل Cool Cotton \nوزن 155 گرم",
+        image: "/images/products/4236b07b-c0bf-482e-8599-f9916ab6f051.jpg"
+    },
+    {
+        id: 205,
+        name: "خوشبو کننده لباس لنوور",
+        category: "شوینده",
+        description: "خوشبو کننده لباس لنوور مدل Fresh وزن 175 گرم",
+        image: "/images/products/8b902b2c-4de5-487e-89f0-f14b8769e595.jpg"
+    },
+    {
+        id: 206,
+        name: "پک صابون 4 عددی دورو",
+        category: "شوینده",
+        description: "پک صابون 4 عددی دورو\nرایحه  لوندر و عسل",
+        image: "/images/products/f7259839-654e-44d3-a338-2b4b3db7aba8.jpg"
+    },
+    {
+        id: 207,
+        name: "ورمیشل آنکارا",
+        category: "مواد غذایی",
+        description: "ورمیشل آنکارا - 500 گرم",
+        image: "/images/products/61e4664f-9c45-4fd9-be1a-98dcc8072863.jpg"
+    },
+    {
+        id: 208,
+        name: "بلغور درشت یشیل",
+        category: "مواد غذایی",
+        description: "بلغور درشت یشیل \nوزن یک کیلو گرم",
+        image: "/images/products/e99c5854-47ac-4504-bcf9-8a198e696c5e.jpg",
+        price: 490000
+    },
+    {
+        id: 209,
+        name: "بلغور رشته دار پلویی",
+        category: "مواد غذایی",
+        description: "بلغور رشته دار پلویی \nوزن یک کیلوگرم",
+        image: "/images/products/d58ee2d1-7d79-4d5a-b9c0-c77f74d8f3ff.jpg",
+        price: 490000
+    },
+    {
+        id: 210,
+        name: "بلغور پلویی آنادولو",
+        category: "مواد غذایی",
+        description: "بلغور پلویی آنادولو\nدانه درشت\nوزن یک کیلوگرم",
+        image: "/images/products/96221b46-e71a-4c5d-946e-567a25075663.jpg",
+        price: 490000
+    },
+    {
+        id: 211,
+        name: "ماسک مو لایتنس اصل مدل آرگان",
+        category: "بهداشتی",
+        description: "ماسک مو لایتنس اصل \nحاوی روغن آرگان \n1 لیتر\n ضد موخره و نرم کننده",
+        image: "/images/products/eb369a89-0560-4851-9288-70c7a6c86b94.jpg",
+        price: 1700000
+    },
+    {
+        id: 212,
+        name: "اسپری ضد تعریق زنانه داو",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق زنانه داو \nمدل Go Fresh \nرایحه گریپ‌فروت و علف لیمو\n حجم 250 میل",
+        image: "/images/products/efbfd0a1-1f60-440b-a51b-b35ebdcf19b2.jpg",
+        price: 1000000
+    },
+    {
+        id: 213,
+        name: "اسپری ضد تعریق زنانه داو",
+        category: "بهداشتی",
+        description: "سپری ضد تعریق زنانه داو\n مدل گلابی و آلوئه‌ورا \nحجم 250 میلی لیتر",
+        image: "/images/products/c5096295-9f03-4139-97b5-43e66cecb28e.jpg",
+        price: 1000000
+    },
+    {
+        id: 214,
+        name: "اسپری ضد تعریق زنانه داو",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق زنانه داو\n مدل انار و به لیمو\n حجم 250 میلی لیتر",
+        image: "/images/products/dec97eb6-adab-43e7-804d-b0cf823dfe88.jpg",
+        price: 1000000
+    },
+    {
+        id: 215,
+        name: "خمیر دندان خانواده پاوردنت",
+        category: "بهداشتی",
+        description: "خمیر دندان خانواده پاوردنت سفید کننده و جرم گیر دندان ترکیه ای وارداتی اصل 125 میل",
+        image: "/images/products/abbe2cf9-1d30-426c-88c8-06b65fe44263.jpg",
+        price: 530000
+    },
+    {
+        id: 216,
+        name: "خمیردندان اورجینال کولگیت",
+        category: "بهداشتی",
+        description: "خمیردندان اورجینال کولگیت \n سه کاره (سفیدکننده، ضد پوسیدگی، ضد حساسیت) \n100 میلی لیتر\n Triple Action",
+        image: "/images/products/6cd5345e-7456-4f14-acec-3cae4bef765b.jpg",
+        price: 500000
+    },
+    {
+        id: 217,
+        name: "خمیر دندان ضد پوسیدگی نعناع سیگنال",
+        category: "بهداشتی",
+        description: "خمیر دندان ضد پوسیدگی نعناع سیگنال Signal \nحجم 100 میلی لیتر",
+        image: "/images/products/fc6a47d2-6983-446f-a962-f6822f087533.jpg",
+        price: 450000
+    },
+    {
+        id: 218,
+        name: "اسپری ضدتعریق زنانه داو",
+        category: "بهداشتی",
+        description: "اسپری ضدتعریق زنانه داو \n48ساعته\nحجم 250 میلی‌لیتر",
+        image: "/images/products/dbc12b32-6180-45c2-ad89-19e25231d732.jpg",
+        price: 1000000
+    },
+    {
+        id: 219,
+        name: "اسپری ضد تعریق زنانه ایموشن",
+        category: "بهداشتی",
+        description: "اسپری ضد تعریق زنانه ایموشن\n مدل Detox Floral \nحجم 150 میلی‌لیتر",
+        image: "/images/products/2982d67e-4ef8-4933-b9d3-b9c04061b922.jpg",
+        price: 650000
+    },
+    {
+        id: 220,
+        name: "اسپری ضدتعریق زنانه ایموشن",
+        category: "بهداشتی",
+        description: "اسپری ضدتعریق زنانه ایموشن \nمدل Love \nحجم 150 میلی‌لیتر",
+        image: "/images/products/5ff46999-5ad5-42c8-9b78-5528b27d5071.jpg",
+        price: 650000
+    },
+    {
+        id: 221,
+        name: "اسپری  ضدتعریق ۴۸ ساعته زنانه",
+        category: "بهداشتی",
+        description: "اسپری  ضدتعریق ۴۸ ساعته زنانه\n natural bloom\n ایموشن Emotion",
+        image: "/images/products/79394e1f-e356-46f0-8520-0f7e2c1dfc5f.jpg",
+        price: 650000
+    },
+    {
+        id: 222,
+        name: "کرم مرطوب کننده سیر آسپتین",
+        category: "بهداشتی",
+        description: "کرم مرطوب کننده سیر آسپتین\n مدل Prebiyotik \nحجم 200 میلی لیتر",
+        image: "/images/products/a2182f33-809e-4ae2-95d4-a390f84a3c32.jpg",
+        price: 750000
+    },
+    {
+        id: 223,
+        name: "کرم مرطوب کننده دست و صورت آسپتین",
+        category: "بهداشتی",
+        description: "کرم مرطوب کننده دست و صورت آسپتین \n300میل \n ساخت ترکیه",
+        image: "/images/products/7c078a2b-c234-4ac8-a298-db1517bdf8e8.jpg",
+        price: 750000
+    },
+    {
+        id: 224,
+        name: "کورن فلکس کاکائویی کلاگز",
+        category: "بهداشتی",
+        description: "کورن فلکس کاکائویی کلاگز\n وزن ۴۵۰ گرم",
+        image: "/images/products/b09ac3a7-1ee1-454e-bae5-f14ce8744cb6.jpg",
+        price: 1300000
+    },
+    {
+        id: 225,
+        name: "غلات صبحانه لیفالیف  اتی",
+        category: "بهداشتی",
+        description: "غلات صبحانه لیفالیف  اتی \n500 گرم",
+        image: "/images/products/c320b576-4adc-421c-8ffb-a902ab8f0b75.jpg",
+        price: 900000
+    },
+    {
+        id: 226,
+        name: "مایع نرم کننده یوموش اکسترا",
+        category: "شوینده",
+        description: "مایع نرم کننده یوموش اکسترا صورتی\n با رایحه گل شقایق \nغلظت بالا \nحجم 1440میل",
+        image: "/images/products/714b3da3-541c-44af-987a-aefe3203b6bc.jpg",
+        price: 1300000
+    },
+    {
+        id: 227,
+        name: "شکلات تو ایکس 25 عددی",
+        category: "مواد غذایی",
+        description: "شکلات تو ایکس 25 عددی \n هر عدد 50 گرم \nترکیب کارامل و بیسکویت",
+        image: "/images/products/7526dd3b-f5f8-4060-b771-c3a417890de4.jpg",
+        price: 350000
+    },
+    {
+        id: 228,
+        name: "نرم کننده و خوشبو کننده لباس یوموش Yumoş",
+        category: "شوینده",
+        description: "نرم کننده و خوشبو کننده لباس یوموش Yumoş بنفش \nبا رایحه لوتوس Lotus \nحجم 1440میل",
+        image: "/images/products/d4ec4584-6d19-45ca-a5e0-fbdca7119fe6.jpg",
+        price: 1300000
+    },
+    {
+        id: 229,
+        name: "اسپری اتو گرین ورلد",
+        category: "بهداشتی",
+        description: "اسپری اتو گرین ورلد\n 400 میلی‌لیتر",
+        image: "/images/products/583c26d8-be94-4f70-822a-731c1a41a2f3.jpg",
+        price: 1400000
+    },
+    {
+        id: 230,
+        name: "شامپو تقویت کننده و ترمیم کننده مو هنی ویز",
+        category: "بهداشتی",
+        description: "شامپو تقویت کننده و ترمیم کننده مو هنی ویز \nمدل کراتین و پروتین \nحجم 900 میلی لیتر",
+        image: "/images/products/5878c128-bfa1-4341-b798-ac7fe0c5a089.jpg",
+        price: 1700000
+    },
+    {
+        id: 231,
+        name: "ماسک مو هنی ویز",
+        category: "بهداشتی",
+        description: "ماسک مو هنی ویز \n مدل پروتئین برزیلی \nحجم 1000 میلی لیتر",
+        image: "/images/products/c986b294-6560-45f1-b906-2c3f3638960b.jpg",
+        price: 1700000
+    },
+    {
+        id: 232,
+        name: "رول ضد تعریق زنانه ایموشن",
+        category: "بهداشتی",
+        description: "رول ضد تعریق زنانه ایموشن\n مدل Ocean Fresh \nحجم 50 میل",
+        image: "/images/products/a2b9c12d-8e2c-4f46-a603-db750e3db443.jpg",
+        price: 780000
+    },
+    {
+        id: 233,
+        name: "رول ضد تعریق گیاهی زنانه ایموشن",
+        category: "بهداشتی",
+        description: "رول ضد تعریق گیاهی زنانه ایموشن\n Emotion Natural Bloom \n 50 میل",
+        image: "/images/products/13a97825-800a-4454-b33b-d662fe4a53ec.jpg",
+        price: 780000
+    },
+    {
+        id: 234,
+        name: "استیک ضد تعریق زنانه بدون آلومینیوم رکسونا",
+        category: "بهداشتی",
+        description: "استیک ضد تعریق زنانه بدون آلومینیوم رکسونا \nمدل Powder Dry \nحجم 40 میلی لیتر",
+        image: "/images/products/37538838-41f5-4976-8964-358b57d7f934.jpg"
+    },
+    {
+        id: 235,
+        name: "استیک ضد تعریق رکسونا",
+        category: "بهداشتی",
+        description: "استیک ضد تعریق رکسونا\n مدل Invisible Black And White \nحجم ۴۰ میل",
+        image: "/images/products/677111fa-9422-4d6e-8715-054bcae24790.jpg",
+        price: 1300000
+    },
+    {
+        id: 236,
+        name: "مام صابونی ضد تعریق رکسونا",
+        category: "بهداشتی",
+        description: "مام صابونی ضد تعریق رکسونا اصل 48 ساعته \nبا رایحه هندوانه Rexona",
+        image: "/images/products/2352d4d9-81f0-4edd-8bc7-93a57727730e.jpg",
+        price: 1300000
+    },
+    {
+        id: 237,
+        name: "اسپری ضدتعریق زنانه رکسونا",
+        category: "بهداشتی",
+        description: "اسپری ضدتعریق زنانه رکسونا\n مدل Invisible Aqua \nحجم 200 میلی‌لیتر",
+        image: "/images/products/52eeebed-33d3-412b-bc29-7ecbd4c0ed28.jpg",
+        price: 1100000
+    },
+    {
+        id: 238,
+        name: "نوشیدنی انرژی زا لایف",
+        category: "نوشیدنی",
+        description: "نوشیدنی انرژی زا لایف حجم 250 میلی لیتر",
+        image: "/images/products/793a2a6f-f4ec-4dc1-bddf-7b038ea2e731.jpg",
+        price: 60000,
+        oldPrice: 80000
+    },
+    {
+        id: 239,
+        name: "اسپری خوشبو کننده یوموش",
+        category: "بهداشتی",
+        description: "اسپری خوشبو کننده یوموش با رایحه گل شکوفه گیلاس حجم ۴۳۰ میلی‌لیتر",
+        image: "/images/products/8d8cb3a2-fc1e-4179-a318-10e12aad6b69.png",
+        price: 1100000
+    },
+    {
+        id: 240,
+        name: "روغن سرخ کردنی آفتاب",
+        category: "مواد غذایی",
+        description: "روغن سرخ کردنی آفتاب - 1.5 لیتر",
+        image: "/images/products/5ac75abe-a9c6-465c-aa63-c329edc85042.jpg",
+        price: 330000
+    },
+    {
+        id: 241,
+        name: "دستمال توالت گلریز 4 رول",
+        category: "بهداشتی",
+        description: "",
+        image: "/images/products/023eda20-be78-49be-9d0a-dbbaa2fd7156.webp",
+        price: 249000,
+        oldPrice: 265000
+    },
+    {
+        id: 242,
+        name: "دستکش نظافت چندمنظوره گلریز ساق کوتاه Multi Purpose سایز S، M و L بهداشتی",
+        category: "بهداشتی",
+        description: "دستکش نظافت چندمنظوره گلریز مدل Multi Purpose، مناسب برای انجام امور نظافتی و شست‌وشوی روزمره در منزل. این محصول در سایزهای S، M و L به صورت ساق کوتاه و ساق بلندعرضه می‌شود و برای محافظت از دست‌ها هنگام نظافت و شست‌وشو مناسب است.",
+        image: "/images/products/af04411d-13d8-45f7-a922-cadc8f182303.jpg",
+        price: 260000
+    },
+    {
+        id: 243,
+        name: "دستکش آشپزخانه ضدحساسیت آنتی‌باکتریال ایزی کلین ساق بلند سایز S، M و L",
+        category: "بهداشتی",
+        description: "دستکش آشپزخانه ایزی کلین با خاصیت ضدحساسیت و آنتی‌باکتریال، مناسب انجام امور آشپزخانه و نظافت. عرضه در مدل‌های ساق کوتاه و ساق بلند و سایزهای S، M و L.",
+        image: "/images/products/3ea3da49-4004-43dd-b7e2-00a7b631832c.webp",
+        price: 460000
+    },
+    {
+        id: 244,
+        name: "کیسه فریزر رولی پرفراژ دار پاندا جعبه ای سایز 25.35",
+        category: "بهداشتی",
+        description: "",
+        image: "/images/products/fd94a8a8-9ed1-4675-a0bd-9f92a3114310.jpg"
+    },
+    {
+        id: 245,
+        name: "کیسه فریزر توپی نیم کیلیویی/پرفراژ دار سایز25*35",
+        category: "بهداشتی",
+        description: "کیسه فریزر توپی نیم کیلویی،پرفراژدار ضخیم250عددی",
+        image: "/images/products/4722b4be-eb28-4904-bd80-4f188395b860.jpg",
+        price: 460000
+    },
+    {
+        id: 246,
+        name: "سفره یکبار مصرف مجلسی سایز 10*120",
+        category: "بهداشتی",
+        description: "سفره یکبار مصرف مجلسی. یک لایه تیشو+یک لایه نایلون",
+        image: "/images/products/782d1411-beea-44eb-85dc-4a54f36e4f68.jpg",
+        price: 560000
+    },
+    {
+        id: 247,
+        name: "کیسه زباله بنددار سایز متوسط 60*55",
+        category: "بهداشتی",
+        description: "کیسه زباله بند دار متوسط اقتصادی 20 عددی.تولید شده با مواد اولیه مرغوب،کاملا بهداشتی و بدون نشتی.",
+        image: "/images/products/3b9718d4-1f82-46e5-856d-832c2b6e40e6.jpg",
+        price: 320000
+    },
+    {
+        id: 248,
+        name: "دستمال کاغذی 50 برگ گلریز مدل رویای کودکانه",
+        category: "بهداشتی",
+        description: "دستمال کاغذی دو لایه 50 عددی 20x20 سانتی‌متر،قابل استفاده در خودرو",
+        image: "/images/products/d0140fe5-207b-42fe-a5bb-3d1948e82dac.webp",
+        price: 50000,
+        oldPrice: 54000
+    },
+    {
+        id: 249,
+        name: "اسپری شیشه پاک کن سبز هوم پلاس 500میلی لیتر",
+        category: "شوینده",
+        description: "ضد لک، ضد بخار و گرد و غبار، مانع ایستایی قطرات باران",
+        image: "/images/products/a9fee8e1-ff27-4247-a14f-3f5ce3372534.webp",
+        price: 160000
+    },
+    {
+        id: 250,
+        name: "اسپری شیشه پاک کن آبی هوم پلاس 500میلی لیتر",
+        category: "شوینده",
+        description: "ضد لک، ضد بخار و گرد و غبار، مانع ایستایی قطرات باران",
+        image: "/images/products/1e7d59d0-e508-436b-939e-9fcb56090061.webp",
+        price: 160000
+    },
+    {
+        id: 251,
+        name: "اسپری شیشه پاک کن ضد بخار تاژ با رایحه سیب 500میلی لیتر",
+        category: "شوینده",
+        description: "این محصول برای پاک کردن لکه های ناشی از قطرات باران، گرد و غبار، دوده و آلودگی از روی سطوح شیشه ای می باشد. سرعت تبخیر بالا مهار رد و لکه بر روی شیشه از مزایای این محصول می باشد. رایحه بسیار مطلوب جهت معطر کردن فضا این محصول را در بین محصولات مشابه، متفاوت و پرطرفدار کرده است.قابل استفاده برای تمیز کردن شیشه های اتومبیل، پنجره، منازل، ادارات، آینه ها و کلیه سطوح شیشه ای و استیل می باشد.",
+        image: "/images/products/0ce56441-61fe-4cb8-a2ab-26afc2317098.jpg",
+        price: 160000
+    },
+    {
+        id: 253,
+        name: "اسپری شیشه پاک کن ضد بخار تاژ با رایحه اقیانوس 500میلی لیتر",
+        category: "شوینده",
+        description: "این محصول برای پاک کردن لکه های ناشی از قطرات باران، گرد و غبار، دوده و آلودگی از روی سطوح شیشه ای می باشد. سرعت تبخیر بالا مهار رد و لکه بر روی شیشه از مزایای این محصول می باشد. رایحه بسیار مطلوب جهت معطر کردن فضا این محصول را در بین محصولات مشابه، متفاوت و پرطرفدار کرده است.قابل استفاده برای تمیز کردن شیشه های اتومبیل، پنجره، منازل، ادارات، آینه ها و کلیه سطوح شیشه ای و استیل می باشد.",
+        image: "/images/products/a98081f0-463c-48af-afb6-917255327192.webp",
+        price: 160000
+    },
+    {
+        id: 254,
+        name: "ژل ماشین ظرفشویی پریل 1لیتری",
+        category: "شوینده",
+        description: "",
+        image: "/images/products/22789e9d-a9cf-46d8-86ba-2b1b15615ad1.webp",
+        price: 1060000
+    },
+    {
+        id: 255,
+        name: "پودر ماشین ظرفشویی پریل 1 لیتری",
+        category: "شوینده",
+        description: "قدرت پاک کنندگی بالا، دارای  رایحه لیمو، لکه زدایی، تمیز کنندگیريا، چربی زدایی",
+        image: "/images/products/f1473954-92c7-4365-82d5-5b23ebef925b.jpg",
+        price: 700000
+    },
+    {
+        id: 256,
+        name: "نمک ماشین ظرفشویی پریل",
+        category: "شوینده",
+        description: "نمک ظرفشویی پریل با خلوص مناسبی که دارد به میزان کافی آب را نرم می‌کند. این محصول، به خوبی از ماشین ظرفشویی مراقبت کرده و باعث می‌شود که عمر مفید دستکاه افزایش یابد. نمک پریل، از رسوبات آهکی درون ماشین ظرفشویی جلوگیری کرده و مجرای درون بازوهای آب‌پاش را تمیز و باز نگه می‌دارد. نمک پریل دارای پنج عملکرد ویژه است. عملکردهای این نمک علاوه‌بر جلوگیری از رسوبات آهکی و از بین بردن سختی آب، جلوگیری از ایجاد لکه آب روی ظروف و افزایش دوام ماشین ظرفشویی نیز است. نمک پریل ترکیبات حل نشدنی ندارد و خلوص نشان از کیفیت خوب این محصول است.",
+        image: "/images/products/8c76d026-e59b-478a-9830-9dc9a1773754.jpg",
+        price: 350000
+    },
+    {
+        id: 257,
+        name: "مایع جلا دهنده ماشین ظرفشویی پریل مقدار 750 گرم",
+        category: "شوینده",
+        description: "این محصول با قدرت سه برابر باعث درخشش بی‌همتای ظروف و لیوان‌ها و همچنین پاک‌کنندگی فیلتر ماشین‌ظرفشویی می‌شود. جلادهنده‌ی پریل ظروف شما را به درخشندگی الماس درمی‌آورد.  این محصول باقیمانده های غذا را از بین برده و باعث درخشش و شفافیتی بی نظیر می شود.",
+        image: "/images/products/c145a34d-0cc8-4328-9851-0d958e462ad6.jpg",
+        price: 428000
+    },
+    {
+        id: 258,
+        name: "نوار بهداشتی مای لیدی سوپر پد نیمه ضخیم به نرمی ابریشم (XXL)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز خیلی خیلی بزرگ (XXL)، لایه رویی به نرمی ابریشم، بدون نشتی، خنثی‌کننده‌ی بو، پشت ۵۰ درصد پهن‌تر",
+        image: "/images/products/82d387b8-6a83-49cc-81a0-b0989967373b.jpg",
+        price: 210000
+    },
+    {
+        id: 259,
+        name: "نوار بهداشتی مای لیدی سوپر پد نیمه ضخیم همیشه خشک (XXL)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز خیلی خیلی بزرگ (XXL)، لایه رویی همیشه خشک، بدون نشتی، خنثی‌کننده‌ی بو، پشت ۵۰ درصد پهن‌تر",
+        image: "/images/products/eaffc816-2bbe-495b-94db-58662ca6b091.jpg",
+        price: 200000
+    },
+    {
+        id: 261,
+        name: "نوار بهداشتی مای لیدی مکسی نیمه ضخیم همیشه خشک (XL)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز خیلی بزرگ (XL)، لایه رویی همیشه خشک، بدون نشتی، خنثی‌کننده‌ی بو",
+        image: "/images/products/21256540-ab84-458f-9203-94f3c759b419.jpg",
+        price: 160000
+    },
+    {
+        id: 262,
+        name: "نوار بهداشتی مای لیدی مکسی نیمه ضخیم به نرمی ابریشم (XL)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز خیلی بزرگ (XL)، لایه رویی به نرمی ابریشم، بدون نشتی، خنثی‌کننده‌ی بو",
+        image: "/images/products/283e01e9-f0a1-4fae-b361-2afe099ea953.jpg",
+        price: 160000
+    },
+    {
+        id: 263,
+        name: "نوار بهداشتی مای لیدی مکسی نیمه ضخیم همیشه خشک (L)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز بزرگ (L)، لایه رویی همیشه خشک، بدون نشتی، خنثی‌کننده‌ی بو",
+        image: "/images/products/9c0de787-bf63-499b-9e3c-7fde9a7b7011.jpg",
+        price: 160000
+    },
+    {
+        id: 264,
+        name: "نوار بهداشتی مای لیدی مکسی نیمه ضخیم به نرمی ابریشم (L)",
+        category: "بهداشتی",
+        description: "قدرت جذب خیلی خیلی زیاد، سایز بزرگ (L)، لایه رویی به نرمی ابریشم، بدون نشتی، خنثی‌کننده‌ی بو",
+        image: "/images/products/95a65a1f-7adc-45ef-8f5b-28d582f368b9.jpg",
+        price: 160000
+    },
+    {
+        id: 265,
+        name: "نوار بهداشتی بالدار ضخیم کتان MyLady مای لیدی مدل Classic Sensitive XL",
+        category: "بهداشتی",
+        description: "بسته 10 عددی",
+        image: "/images/products/bcd0b9f8-005a-4b06-99d0-a6f479e3cd74.jpg",
+        price: 175000
+    },
+    {
+        id: 267,
+        name: "ماءالشعیر شیشه ای ایستک استوایی ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/a6d9e773-b60c-41ea-a148-c792e3f67422.webp",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 268,
+        name: "ماءالشعیر شیشه ای ایستک هلو ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/15984fe1-9a9a-496b-9eb7-4efb8aebc927.webp",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 269,
+        name: "ماءالشعیر شیشه ای ایستک سیب ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/545ff682-e1f4-4a3f-af6e-d52fe7954a65.webp",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 270,
+        name: "ماءالشعیر شیشه ای ایستک لیمو ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/88c8c3b9-e6b3-4f71-9b2f-aaac947538d2.jpg",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 271,
+        name: "ماءالشعیر شیشه ای ایستک ساده ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/de0bb3b1-0aa3-4591-950e-713d108e0c33.jpg",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 272,
+        name: "ماءالشعیر شیشه ای ایستک آناناس ۳۲۰ میلی‌لیتر بسته ۱۲ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/5971e15f-9e8c-4436-a5b4-7c7ff75cf17a.webp",
+        price: 1020000,
+        oldPrice: 1140000
+    },
+    {
+        id: 273,
+        name: "ماءالشعیر ایستک استوایی بطری ۱ لیتری بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "ماءالشعیر ایستک با طعم استوایی و حجم ۱ لیتر، در بسته ۶ عددی. مناسب مصرف روزانه و پذیرایی، با طعمی میوه‌ای و دلپذیر.",
+        image: "/images/products/035c2510-3616-48e1-853d-903505b0e004.jpg",
+        price: 670000,
+        oldPrice: 780000
+    },
+    {
+        id: 274,
+        name: "ماءالشعیر ایستک سیب بطری ۱ لیتری بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/03baa9e2-f3d4-4583-9e44-c381692395f2.webp",
+        price: 670000,
+        oldPrice: 780000
+    },
+    {
+        id: 275,
+        name: "ماءالشعیر ایستک کلاسیک بطری ۱ لیتری بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/b93c54e0-8704-43e6-afda-524331ae5afa.webp",
+        price: 670000,
+        oldPrice: 820000
+    },
+    {
+        id: 276,
+        name: "ماءالشعیر ایستک هلو بطری ۱ لیتری بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/c193dea2-8629-4467-9e1a-38a9a148d075.png",
+        price: 670000,
+        oldPrice: 780000
+    },
+    {
+        id: 277,
+        name: "ماءالشعیر ایستک لیمو بطری ۱ لیتری بسته ۶ عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/0e3b7ce8-7153-4f64-95d7-6de2e1112462.jpg",
+        price: 670000,
+        oldPrice: 780000
+    },
+    {
+        id: 278,
+        name: "ماءالشعیر استوایی دلستر بهنوش حجم 1 لیتری (بسته 6 عددی)",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/d1eba937-4ea1-4c94-835f-7c65a1ac34b9.webp",
+        price: 650000,
+        oldPrice: 735000
+    },
+    {
+        id: 279,
+        name: "ماءالشعیر لیمو دلستر بهنوش حجم 1 لیتری (بسته 6 عددی)",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/32f37c82-d29d-4da4-be76-e49313972824.webp",
+        price: 650000,
+        oldPrice: 735000
+    },
+    {
+        id: 280,
+        name: "ماءالشعیر کلاسیک دلستر بهنوش حجم 1 لیتری (بسته 6 عددی)",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/5d8aa4a0-238b-46b1-92ca-bf9d43b4f34d.webp",
+        price: 650000,
+        oldPrice: 735000
+    },
+    {
+        id: 281,
+        name: "دوغ آبعلی زمزم 250 میلی لیتر باکس 12 عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/1c4b5179-9dca-49f2-b25d-d10b810fdfb3.jpg",
+        price: 480000
+    },
+    {
+        id: 282,
+        name: "نوشابه لیموناد گازدار زمزم شیشه ای - 280 میلی لیتر 12 عددی",
+        category: "بهداشتی",
+        description: "",
+        image: "/images/products/e75d89e8-40af-4d34-bd7f-30d23f593358.jpg",
+        price: 480000
+    },
+    {
+        id: 283,
+        name: "لیموناد زمزم خانواده بطری1 لیتر (باکس 6 عددی)",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/35d95937-e71f-49c8-b09f-4ffad9951f2d.jpg",
+        price: 630000
+    },
+    {
+        id: 284,
+        name: "نوشابه زرد پت فانتا (یک نفره 300 سی سی) بسته 24 عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/b72a69d5-5ad9-4378-91ed-64990c40f867.jpg",
+        price: 850000,
+        oldPrice: 1000000
+    },
+    {
+        id: 285,
+        name: "نوشابه مشکی پت کوکا (یک نفره 300 سی سی) بسته 24 عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/df1ca025-50b0-4562-93de-7c2b034e77ca.jpg",
+        price: 850000,
+        oldPrice: 1000000
+    },
+    {
+        id: 286,
+        name: "نوشیدنی انرژی زا زمزم انرجی",
+        category: "نوشیدنی",
+        description: "نوشابه انرژی زا اورجینال زمزم - 250 میلی لیتر-باکس 12عددی",
+        image: "/images/products/42bb399c-2585-4123-82c6-2bbfa61f0514.jpg",
+        price: 1080000
+    },
+    {
+        id: 287,
+        name: "آب آشامیدنی دسانی کوکاکولا 500 میلی‌لیتری بسته 12 عددی",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/e3bfe562-b96a-4369-a07b-9754f571b2f9.jpg",
+        price: 250000
+    },
+    {
+        id: 292,
+        name: "دستمال توالت",
+        category: "بهداشتی",
+        description: "دستمال توالت۳ لایه ۸ رول تنو",
+        image: "/images/products/320807e9-b9e6-4193-94be-6db4ba7adaba.jpg",
+        price: 490000
+    },
+    {
+        id: 293,
+        name: "دستمال حوله ای",
+        category: "بهداشتی",
+        description: "دستمال حوله ای ۳ لایه ۴ رول تنو ۳۹۰",
+        image: "/images/products/6f00e322-5a89-4714-a7d8-09a8f925c09e.jpg"
+    },
+    {
+        id: 289,
+        name: "نوشابه پرتقالی فانتا حجم 1.5 لیتری (بسته 6 عددی)",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/86604bde-8e7c-4ad8-a1d3-fe965fd17417.webp",
+        price: 590000
+    },
+    {
+        id: 290,
+        name: "نوشابه مشکی کوکاکولا 1.5 لیتری",
+        category: "نوشیدنی",
+        description: "",
+        image: "/images/products/82a91946-1188-4b29-b22c-259fd602c423.jpg",
+        price: 590000
+    },
+    {
+        id: 296,
+        name: "دستمال کاغذی 250 برگ تنو",
+        category: "بهداشتی",
+        description: "دستمال‌کاغذی نایلونی تنو یکی از پرکاربردترین انواع دستمال‌کاغذی است که در محل کار، رستوران‌ها، خانه، ماشین و ... قابل استفاده است . این دستمال نرم و سفید بوده و 250 برگ دولایه است و در شرایط بهداشتی با مواد اولیه کاملاً مرغوب تولیدشده است. استفاده از این دستمال به‌صرفه بوده استفاده از این نوع دستمال سبب افزایش بهداشت و جلوگیری از انتشار انواع بیماری‌های واگیردار خواهد شد.",
+        image: "/images/products/bcb760d9-1456-4800-a397-9c8c567e2e9f.webp",
+        price: 130000
+    },
+    {
+        id: 297,
+        name: "دستمال حوله ای تنو بسته 4 رول",
+        category: "بهداشتی",
+        description: "این محصول به صورت بسته های 4 رولعرضه می شود و با برگه های 3 لایه با قدرت جذب بالای آب در کنار لطافت هر برگ طرفداران مخصوص خود را دارا می باشد.قیمت دستمال کاغذی در انواع مدل در این هایپر مارکت با ارزانترین قیمت عمده برای سفارش اداری، سازمان ها و شرکت ها قابل ارائه است.",
+        image: "/images/products/2019ca2e-d560-4147-bbf5-6e06a2564ed5.jpg",
+        price: 290000
+    },
+    {
+        id: 298,
+        name: "دستمال توالت تنو بسته 8 رول",
+        category: "بهداشتی",
+        description: "این محصول از  تیشو با الیاف بسیار با کیفیت و ضد حساسیت تولید شده و با قیمتی بسیار مقرون به صرفه در بازار به فروش می رسد. دستمال توالت تنو قابل استفاده در ادارات و برای ملزومات سازمان ها و شرکت ها است.",
+        image: "/images/products/1f27a2eb-d984-4375-87ea-6375c4b06712.jpg",
+        price: 490000
+    },
+    {
+        id: 299,
+        name: "دستمال توالت تنو بسته 12 رول",
+        category: "بهداشتی",
+        description: "ابعاد هر برگ این دستمال در اندازه های 12.3 در10 سانتی می باشد  که از این لحاظ شباهت به دستمال توالت پاپیا دارد. کیفیت این دستمال بسیار بالاست و از تیشوی سفید تهیه شده است.از ویژگی های این دستمال می توان به قدرت جذب بالای آب، لطیف، مقرون به صرفه و طرح دار بودن آن اشاره کرد.",
+        image: "/images/products/eb1b433b-50e3-4be1-bfec-3179813da4e6.jpg",
+        price: 750000
+    },
+    {
+        id: 295,
+        name: "دستمال توالت 2 رول فول تایم",
+        category: "بهداشتی",
+        description: "دستمال دو قلوی فول تایم تولید شده در شرایط بهداشتی و بدون دخالت دست - صد در صد الیاف سلولزی - سبک و حجیم شده",
+        image: "/images/products/f4706f45-de33-4f0c-93f5-c98ea178357a.jpg",
+        price: 125000
+    }
+];
+}),
+"[project]/lib/catalog.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getStoreProducts",
+    ()=>getStoreProducts
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/db.ts [app-rsc] (ecmascript)");
+;
+async function getStoreProducts() {
+    const rows = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].prepare(`SELECT pm.id AS model_id, pm.name, pm.category, pm.description, pm.image, pm.old_price,
+              pv.id AS variant_id, pv.sale_price, pv.stock
+       FROM product_models pm
+       LEFT JOIN product_variants pv ON pv.model_id = pm.id
+       ORDER BY pm.id ASC, pv.id ASC`).all();
+    return rows.map((row)=>({
+            id: row.variant_id ?? row.model_id,
+            variantId: row.variant_id ?? undefined,
+            modelId: row.model_id,
+            name: row.name,
+            category: row.category ?? "بهداشتی",
+            description: row.description ?? "",
+            image: row.image && row.image.trim() !== "" ? row.image : "/file.svg",
+            price: row.sale_price ?? undefined,
+            oldPrice: row.old_price ?? undefined,
+            stock: row.stock ?? 0
+        }));
+}
+}),
+"[project]/lib/db.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "backupDatabase",
+    ()=>backupDatabase,
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$externals$5d2f$better$2d$sqlite3__$5b$external$5d$__$28$better$2d$sqlite3$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$better$2d$sqlite3$29$__ = __turbopack_context__.i("[externals]/better-sqlite3 [external] (better-sqlite3, cjs, [project]/node_modules/better-sqlite3)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/node:path [external] (node:path, cjs)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$fs__$5b$external$5d$__$28$node$3a$fs$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/node:fs [external] (node:fs, cjs)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$os__$5b$external$5d$__$28$node$3a$os$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/node:os [external] (node:os, cjs)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$products$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/data/products.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+const dataDirectory = __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__["default"].join(process.cwd(), "data");
+__TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$fs__$5b$external$5d$__$28$node$3a$fs$2c$__cjs$29$__["default"].mkdirSync(dataDirectory, {
+    recursive: true
+});
+const databasePath = __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__["default"].join(dataDirectory, "store.db");
+const db = new __TURBOPACK__imported__module__$5b$externals$5d2f$better$2d$sqlite3__$5b$external$5d$__$28$better$2d$sqlite3$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$better$2d$sqlite3$29$__["default"](databasePath);
+db.pragma("journal_mode = WAL");
+db.pragma("foreign_keys = ON");
+db.exec(`
+  CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    display_name TEXT NOT NULL,
+    password_hash TEXT NOT NULL,
+    role TEXT NOT NULL CHECK (role IN ('admin', 'seller')),
+    active INTEGER NOT NULL DEFAULT 1,
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS sessions (
+    id TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    expires_at TEXT NOT NULL,
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  );
+
+  CREATE TABLE IF NOT EXISTS store_settings (
+    setting_key TEXT PRIMARY KEY,
+    setting_value TEXT NOT NULL DEFAULT ''
+  );
+
+  CREATE TABLE IF NOT EXISTS product_models (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    fabric TEXT,
+    category TEXT,
+    description TEXT,
+    image TEXT,
+    old_price INTEGER,
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS product_variants (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    model_id INTEGER NOT NULL,
+    color TEXT NOT NULL,
+    size TEXT NOT NULL,
+    purchase_price INTEGER NOT NULL DEFAULT 0,
+    sale_price INTEGER NOT NULL DEFAULT 0,
+    stock INTEGER NOT NULL DEFAULT 0 CHECK (stock >= 0),
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (model_id) REFERENCES product_models(id),
+    UNIQUE (model_id, color, size)
+  );
+
+  CREATE TABLE IF NOT EXISTS purchases (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    supplier TEXT,
+    total_amount INTEGER NOT NULL DEFAULT 0,
+    notes TEXT,
+    purchased_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS purchase_items (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    purchase_id INTEGER NOT NULL,
+    variant_id INTEGER NOT NULL,
+    quantity INTEGER NOT NULL CHECK (quantity > 0),
+    unit_price INTEGER NOT NULL CHECK (unit_price >= 0),
+    FOREIGN KEY (purchase_id) REFERENCES purchases(id),
+    FOREIGN KEY (variant_id) REFERENCES product_variants(id)
+  );
+
+  CREATE TABLE IF NOT EXISTS sales (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    invoice_number TEXT NOT NULL UNIQUE,
+    total_amount INTEGER NOT NULL DEFAULT 0,
+    discount INTEGER NOT NULL DEFAULT 0,
+    notes TEXT,
+    created_by INTEGER REFERENCES users(id),
+    customer_id INTEGER REFERENCES customers(id) ON DELETE SET NULL,
+    paid_amount INTEGER NOT NULL DEFAULT 0,
+    sold_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS sale_items (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sale_id INTEGER NOT NULL,
+    variant_id INTEGER NOT NULL,
+    quantity INTEGER NOT NULL CHECK (quantity > 0),
+    unit_price INTEGER NOT NULL CHECK (unit_price >= 0),
+    unit_cost INTEGER NOT NULL DEFAULT 0,
+    FOREIGN KEY (sale_id) REFERENCES sales(id),
+    FOREIGN KEY (variant_id) REFERENCES product_variants(id)
+  );
+
+  CREATE TABLE IF NOT EXISTS expenses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    amount INTEGER NOT NULL CHECK (amount >= 0),
+    notes TEXT,
+    spent_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS customers (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    phone TEXT,
+    notes TEXT,
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE IF NOT EXISTS payments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    customer_id INTEGER NOT NULL,
+    amount INTEGER NOT NULL CHECK (amount > 0),
+    method TEXT NOT NULL CHECK (method IN ('cash', 'card')),
+    notes TEXT,
+    created_by INTEGER REFERENCES users(id),
+    paid_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE
+  );
+
+  CREATE INDEX IF NOT EXISTS idx_payments_customer ON payments(customer_id);
+`);
+// Keep older local databases compatible with the current schema.
+const salesColumns = db.prepare("PRAGMA table_info(sales)").all();
+if (!salesColumns.some((column)=>column.name === "created_by")) {
+    db.exec("ALTER TABLE sales ADD COLUMN created_by INTEGER REFERENCES users(id)");
+}
+if (!salesColumns.some((column)=>column.name === "customer_id")) {
+    db.exec("ALTER TABLE sales ADD COLUMN customer_id INTEGER REFERENCES customers(id)");
+}
+if (!salesColumns.some((column)=>column.name === "paid_amount")) {
+    db.exec("ALTER TABLE sales ADD COLUMN paid_amount INTEGER NOT NULL DEFAULT 0");
+}
+db.exec("CREATE INDEX IF NOT EXISTS idx_sales_customer ON sales(customer_id)");
+// ستون‌های کاتالوگ فروشگاه برای سازگاری با دیتابیس‌های قبلی
+const modelColumns = db.prepare("PRAGMA table_info(product_models)").all();
+for (const [name, type] of [
+    [
+        "category",
+        "TEXT"
+    ],
+    [
+        "description",
+        "TEXT"
+    ],
+    [
+        "image",
+        "TEXT"
+    ],
+    [
+        "old_price",
+        "INTEGER"
+    ]
+]){
+    if (!modelColumns.some((column)=>column.name === name)) {
+        db.exec(`ALTER TABLE product_models ADD COLUMN ${name} ${type}`);
+    }
+}
+/**
+ * کاتالوگ فروشگاه و پنل مدیریت از همین جدول‌ها تغذیه می‌شوند.
+ * در اولین اجرا، کالاهای فعلی فروشگاه (data/products.ts) اینجا ثبت می‌شوند.
+ */ function seedCatalog() {
+    const existing = db.prepare("SELECT COUNT(*) AS count FROM product_models").get().count;
+    if (existing > 0) return;
+    // کالاهایی که در منبع اصلی «ناموجود» بودند
+    const outOfStockIds = new Set([
+        11,
+        21,
+        30,
+        31,
+        32,
+        45,
+        47,
+        85,
+        122,
+        123,
+        131,
+        138,
+        139,
+        140,
+        167,
+        168,
+        299
+    ]);
+    const DEFAULT_OPENING_STOCK = 10;
+    const insertModel = db.prepare("INSERT INTO product_models (code, name, fabric, category, description, image, old_price) VALUES (?, ?, NULL, ?, ?, ?, ?)");
+    const insertVariant = db.prepare("INSERT INTO product_variants (model_id, color, size, purchase_price, sale_price, stock) VALUES (?, '-', '-', 0, ?, ?)");
+    const seed = db.transaction(()=>{
+        let index = 0;
+        for (const product of __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$products$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["products"]){
+            index += 1;
+            const modelId = Number(insertModel.run(`K-${String(index).padStart(3, "0")}`, product.name, product.category, product.description, product.image, product.oldPrice ?? null).lastInsertRowid);
+            insertVariant.run(modelId, product.price ?? 0, outOfStockIds.has(product.id) ? 0 : DEFAULT_OPENING_STOCK);
+        }
+    });
+    seed.immediate();
+}
+seedCatalog();
+function backupDatabase(destination = __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__["default"].join(__TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$os__$5b$external$5d$__$28$node$3a$os$2c$__cjs$29$__["default"].homedir(), "ShopManagementBackups")) {
+    __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$fs__$5b$external$5d$__$28$node$3a$fs$2c$__cjs$29$__["default"].mkdirSync(destination, {
+        recursive: true
+    });
+    const filename = `store-${new Date().toISOString().replace(/[:.]/g, "-")}.db`;
+    return db.backup(__TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__["default"].join(destination, filename));
+}
+const __TURBOPACK__default__export__ = db;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0z9ejhh._.js.map
